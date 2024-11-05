@@ -1,0 +1,1862 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>Sausage Man - Bergaransi & Gratis Biaya Admin</title>
+
+        <meta name="description" content="Tempatnya Top Up Berbagai Game &amp; Aplikasi. Gratis Biaya Admin dengan bayar pakai QRIS. Pengisian Otomatis &amp; Open 24 Jam.
+
+Dijamin Aman, Legal, Nyaman dan Bikin Ketagihan.
+
+&nbsp;
+">
+        <meta name="keywords" content="Top Up Diamond, MLBB, PUBG, Free Fire, UC PUBG, Mobile Legends, Valorant, Genshin Impact">
+        <meta name="theme-color" content="#32323E" >
+
+
+
+
+        <link rel="shortcut icon" href="https://topupdiamond.com/assets/images/favicon.png">
+        <link rel="stylesheet" href="https://topupdiamond.com/assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://topupdiamond.com/assets/plugins/bootstrap-datatable/css/dataTables.bootstrap4.min.css">
+    
+    <link rel="stylesheet" href="https://topupdiamond.com/assets/css/icons.css">
+    
+    <link rel="stylesheet" href="https://topupdiamond.com/assets/css/app-style.css">
+    <link rel="stylesheet" href="https://topupdiamond.com/assets/css/style-main.css">
+    <link href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <style>
+           
+            
+            a {
+                color: #fff;
+            }
+            
+            .shadow-navbar {
+                box-shadow: 0 100px 80px hsl(0deg 0% 89% / 7%), 0 41.7776px 33.4221px hsl(0deg 0% 89% / 5%), 0 22.3363px 17.869px hsl(0deg 0% 89% / 4%), 0 12.5216px 10.0172px hsl(0deg 0% 89% / 4%), 0 6.6501px 5.32008px hsl(0deg 0% 89% / 3%), 0 2.76726px 2.21381px hsl(0deg 0% 89% / 2%);
+            }
+            .content {
+                min-height: 446px;
+                padding-top: 50px;
+            }
+            .table-white tr th, .table-white tr td {
+                color: #ffe7d0;
+                border-color: #242f3a;
+            }
+            .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+                color: #24C020;
+            }
+            .rotateback {
+                transform: rotate(-45deg) !important;
+                    font-size: 16px;
+            }
+            .kotakmiring {
+                 transform: rotate(45deg); border-radius: 0px !important;display:flex; justify-content: center;height: 25px;width: 25px;
+            }
+            label {
+                font-weight: 500;
+                text-transform: none;
+            }
+            .col-form-label {
+                padding-top: calc(.375rem + 3px);
+            }
+            .card-tools {
+                float: right;
+                margin-top: -25px;
+            }
+            .cursor-pointer {
+                cursor: pointer;
+            }
+            .menu-user a {
+                padding: 10px 16px;
+                border-radius: 5px;
+                color: #32323e;
+            }
+            .menu-user a:hover {
+                background: #32323e;
+            }
+            .menu-user a i {
+                font-size: 19px;
+                width: 20px;
+            }
+            .menu-user {
+                margin-bottom: 26px;
+            }
+            .daterangepicker td, .daterangepicker th {
+                color: #626262;
+            }
+            .circle-primary {
+                background: 
+                #24c020;
+                color: #212529;
+            }
+            .bg-footer {
+                background-color: var(--warna);
+            }
+            .bg-theme1, .bg-custom {
+                background: var(--warna_2) !important;
+                padding: 10px 20px 10px 20px;
+            }
+            .btn-topup, .back-to-top {
+                background: var(--warna_3);
+            }
+            .section {
+                background: var(--warna_2);
+            }
+            .radio-nominale + label {
+                background: #32323E;
+                border: 2px solid;
+                border-color: #ffffff00;
+                font-size: 14px;
+                color: #ffffff;
+                font-weight: 600;
+                overflow: hidden;
+            }
+            .radio-nominal + label {
+                background: #d0d0d0;
+                filter: grayscale(100%);
+                border: none !important;
+                color: #767676;
+            }
+            
+            .radio-nominale:checked + label{
+                background-color: #24c020 !important;
+                color: #ffffff !important;
+                font-size: 14px;
+                border: 2px solid #24c020;
+            }
+            .radio-nominal:checked + label {
+                background: #24c020;
+                color: #ffffff;
+                font-size: 14px;
+                border: 2px solid #24c020;
+                filter: grayscale(0%);
+            }
+            .owl-dot {
+                display:none;
+            }
+            .strip-primary {
+                background: #24c020;
+            }
+            .btn-primary {
+                background: #24c020 !important;
+                border-color:#24c020 !important;
+            }
+            .sidenav {
+                background: var(--warna_2);
+            }
+            .radio-nominal:checked + label, .table-white tr th, .table-white tr td {
+                border-color: #24c020;
+            }
+            .menu-utama div a {
+                margin: 0 4px;
+            }
+            .menu-utama div a:hover, .menu-utama div a.active {
+                background: transparent;
+                border-radius: 14px 4px;
+            }
+            .navbar-collapse {
+                background: var(--warna_2);
+            }
+            .menu-list {
+                list-style: none;
+                padding-left: 0;
+            }
+            .menu-list li a {
+                display: block;
+                padding: 10px 0;
+                border-bottom: 1px dashed var(--warna_3);
+                transition: .4s;
+            }
+            .menu-list li a:hover {
+                padding-left: 6px;
+            }
+            .row-search {
+                margin-right: -12.5px;
+                margin-left: -12.5px;
+                padding-bottom: 20px; 
+            }
+            .tes-card {
+                padding: 0.2rem;
+                box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+                border-radius: 0.5rem;
+                text-align: center;
+                background: #fff;
+                display: block;
+                text-decoration: none;
+                color: #333;
+                height: 120px;
+                margin-bottom: 4rem!important;
+            }
+            .card-subtitle {
+                margin-top: -20px;
+            }
+            .tes-img {
+                border-radius: 10px;
+                display: block;
+                transform: translate(-50%,-70%)!important;
+                left: 50%!important;
+                position: absolute!important;
+                width: 70%;
+            }
+            .tes-card-title {
+                margin-top: 15px;
+                padding: 3px;
+               padding-bottom: 10px;
+                color: #212427;
+                font-size: 0.75rem;
+                letter-spacing: .5px;
+                font-weight: 300;
+            }
+            .card-topup {
+                display: none;
+            }
+            .title-hot {
+                    padding-bottom: 3.5rem !important;
+            }
+            .header img {
+                max-width: 300px;
+            }
+            .header {
+                width: 100%;
+                height: 200px;
+                background: #3D3D3D;
+                border-radius: 0 0 1.5rem 1.5rem;
+                text-align: center;
+                padding-top: 10px;
+            }
+            .footer {
+                background-color: #ffe7d0;
+            }
+            .content-body {
+                padding: 0 16px;
+            }
+            .form-control {
+                display: block;
+                width: 100%;
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border-radius: 0.375rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+            .carousel {
+                position: relative;
+                margin-top: 30px;
+            }
+            .owl-carousel.owl-hidden {
+                opacity: 0;
+            }
+            .owl-carousel.owl-rtl {
+                direction: rtl;
+            }
+            .owl-carousel .owl-stage-outer {
+                position: relative;
+                overflow: hidden;
+                -webkit-transform: translate3d(0,0,0);
+            } 
+            .owl-carousel .owl-nav.disabled {
+                display: none;
+            }
+            .owl-carousel .owl-item img {
+                display: block;
+                width: 100%;
+            }
+            .item .metode {
+                margin: 5px 0;
+                background: #fff;
+                border-radius: 8px;
+                padding: 0.75rem;
+                box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%) !important;
+            }
+            .owl-carousel .owl-item {
+                min-height: 1px;
+                float: left;
+                -webkit-backface-visibility: hidden;
+                -webkit-touch-callout: none;
+            }
+            .sosmed {
+                margin-bottom: 20px;
+                font-size:25px;
+            }
+            .sosmed a img {
+                width: 24px;
+            }
+            .menu-bottom {
+                position: fixed;
+                bottom: 0;
+                background: #E2E8F0;
+                width: 100%;
+                max-width: 480px;
+                border-top: 1px solid #E2E8F0;
+                padding: 0.25rem 0;
+                text-align: center;
+                z-index: 2;
+                text-decoration: none;
+                font-size: 24px;
+                font-size: 0.875rem;
+                margin-top: -5px;
+                font-weight: 400;
+                padding-top: 18px;
+            }
+            .px-2 {
+                padding-right: 0.5rem!important;
+                padding-left: 0.5rem!important;
+            }
+            .row {
+                --bs-gutter-x: 1.5rem;
+                --bs-gutter-y: 0;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: calc(-1 * var(--bs-gutter-y));
+                margin-right: calc(-.5 * var(--bs-gutter-x));
+                margin-left: calc(-.5 * var(--bs-gutter-x));
+            }
+            .col-4 {
+                flex: 0 0 auto;
+                width: 33.33333333%;
+            }
+            a:hover {
+                color: #24c020;
+                text-decoration: none;
+            }
+            .menu-bottom i {
+                font-size: 24px;
+            }
+            .mdi-home:before {
+                content: "\F2DC";
+            }
+            .mdi-history:before {
+                content: "\F2DC";
+            }
+            .mdi-account-circle:before {
+                content: "\F2DC";
+            }
+            .mdi:before, .mdi-set {
+                display: inline-block;
+                font: normal normal normal 24px/1 "Material Design Icons";
+                font-size: inherit;
+                text-rendering: auto;
+                line-height: inherit;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .lb {
+                border-top: 7px solid #f18b2b;
+            }
+            .pb-5 {
+                padding-bottom: 4rem!important;
+                margin-top: 30px;
+            }
+            .section-game {
+                background: var(--warna_2);
+            }
+            
+             :root {
+                --warna: #282828;
+                --warna_2: #000;
+                --warna_3: #24c020;
+            }
+            
+            .game-desc-1 {
+                padding-bottom: 1rem!important;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                color: #212529;
+            }
+            .body-games {
+                background: #242424;
+                flex: 1 1 auto;
+                padding: 1.25rem;
+            }
+            .button-beli {
+                position: fixed;
+                bottom: 0;
+                background: #fff;
+                width: 100%;
+                max-width: 480px;
+                border-top: 1px solid #E2E8F0;
+                padding: 0.25rem 0;
+                text-align: center;
+                z-index: 2;
+                text-decoration: none;
+                font-size: 24px;
+                font-size: 0.875rem;
+                margin-top: -5px;
+                font-weight: 400;
+                padding: 24px;
+                padding-top: 24px;
+            }
+            small {
+                font-size: 100%;
+
+            }
+            .sec-rnt {
+                background: #ffe7d0;
+            }
+            .pb-5-rnt {
+                padding: 10px;
+            }
+            .product-list {
+				border-radius: 0.5rem;
+				box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+				overflow: hidden;
+			}
+			.product-list b {
+				font-size: 0.85rem;
+				font-weight: 600;
+			}
+			.product-list span {
+				font-size: 11px;
+				color: #718096;
+			}
+			.product-list.active {
+				border: 1px solid var(--warna_2) !important;
+			}
+			.product-list.active b {
+				margin-top: -53px;
+			}
+			.radio-nominale:checked + label:after {
+                position: absolute;
+                top: 0;
+                left: 0.782rem;
+                width: 28px;
+                height: 28px;
+                content: "";
+                
+                text-align: center;
+                border-radius: 0 5px 0 0;
+            }
+            .radio-nominal:checked + label:after {
+                position: absolute;
+                top: 0;
+                left: 0.782rem;
+                width: 28px;
+                height: 28px;
+                content: "";
+                
+                text-align: center;
+                border-radius: 0 5px 0 0;
+            }
+                    
+            
+            .after-payment {
+                padding-bottom: 1.5rem!important;
+                text-align: center;
+            }
+            .trims-1 {
+                text-align: center;
+            }
+            .box-back {
+                width: 38px;
+                height: 38px;
+                background: #33333354;
+                text-align: center;
+                border-radius: 30px;
+                display: inline-block;
+                transition: 0.5s;
+                margin-left: 20px;
+                    margin-top: 16px;
+                    position: absolute;
+            }
+                        .box-back i {
+                font-size: 22px;
+                margin-top: 7px;
+                color: #fff;
+                z-index:999;
+            }
+            .fa-angle-left {
+                z-index:999
+            }
+            .pb-3-details {
+                    padding-bottom: 0px!important;
+                    padding: 0px 10px 0px 10px!important;
+                    border-radius: 15px;
+            }
+            .p-3-detail {
+                border-radius: 15px;
+            }
+            .body-games-details {    
+                border-radius: 0px 0px 10px 10px;
+                margin-bottom: 8px;
+            }
+            body {
+                background-color: #0c0c0c;
+                color: #ffffff;
+            }
+            .fab-container {
+                position: fixed;
+                bottom: 90px;
+                right: 10px;
+                z-index: 999;
+                cursor: pointer;
+            }
+        
+            .img-fluid2 {
+                max-width: 100%;
+                height: auto;
+                padding-bottom: 15px;
+
+            }
+        
+            .fab-icon-holder {
+                width: 45px;
+                height: 45px;
+                bottom: 140px;
+                left: 10px;
+                color: #FFF;
+                background: #5865f2;
+                border-radius: 10px;
+                text-align: center;
+                font-size: 30px;
+                z-index: 99999;
+            }
+        
+            .fab-icon-holder:hover {
+                opacity: 0.8;
+            }
+        
+            .fab-icon-holder i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                font-size: 25px;
+                color: #ffffff;
+            }
+        
+            .fab-options {
+                list-style-type: none;
+                margin: 0;
+                position: absolute;
+                bottom: 48px;
+                left: -45px;
+                opacity: 0;
+                transition: all 0.3s ease;
+                transform: scale(0);
+                transform-origin: 85% bottom;
+            }
+        
+            .fab:hover+.fab-options,
+            .fab-options:hover {
+                opacity: 1;
+                transform: scale(1);
+            }
+        
+            .fab-options li {
+                display: flex;
+                justify-content: flex-start;
+                padding: 5px;
+            }
+        
+            .fab-label {
+                padding: 2px 5px;
+                align-self: center;
+                user-select: none;
+                white-space: nowrap;
+                border-radius: 3px;
+                font-size: 16px;
+                background: #666666;
+                color: #ffffff;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+                margin-left: 10px;
+            }
+        
+            .text-decoration-none {
+            text-decoration: none!important; }
+                  
+            .card-title2 {
+                min-height: 30px !important;
+                margin-top: -25px !important;
+                font-weight: 600 !important;
+                font-size: 10px !important;
+                color: #fff !important;
+                background: #212427 !important;
+                padding-top: 8px !important;
+                margin-bottom: 0px !important;
+            } 
+            
+            .backdrop {
+                margin: -17px 10px 0px 10px;
+                font-weight: 600 !important;
+                font-size: 0.7rem !important;
+                color: #fff !important;
+                background-color: rgb(40 40 40 / 36%);
+                border-radius: 0.75rem;
+                padding: 13px 5px 13px 5px;
+                --tw-backdrop-saturate: saturate(2);
+                backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-saturate);
+                --tw-backdrop-blur: blur(12px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                    
+            }
+            .container {
+                max-width: 1200px !important;
+            }
+            .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                font-weight: 600;
+                color: #fff;
+            }
+        .shadow-form {
+                box-shadow: 0 4px 80px hsl(0deg 0% 77% / 13%), 0 1.6711px 33.4221px hsl(0deg 0% 77% / 9%), 0 0.893452px 17.869px hsl(0deg 0% 77% / 8%), 0 0.500862px 10.0172px hsl(0deg 0% 77% / 7%), 0 0.266004px 5.32008px hsl(0deg 0% 77% / 5%), 0 0.11069px 2.21381px hsl(0deg 0% 77% / 4%);
+            }
+        .section-game {
+                border: 1px solid #e3e7ea;
+                box-shadow: 0px 2px 1px #c9c9c9;
+            }
+            .card {
+                background-color: #32323e !important;
+            }
+
+            
+        </style>
+
+            <style>
+       p {
+       color: #fff
+       }
+       
+       .mb-1, .my-1 {
+            margin-bottom: 0.75rem!important;
+        }
+       .container {
+            max-width: 1300px;
+        }
+       .h3, h3 {
+        font-size: 25px;
+        }
+        .accordion-item {
+       border: 1px solid #adadad82;
+       border-radius: 7px;
+       }
+       .accordion-item:hover {
+       border: 2px solid  #24c020;
+       }
+       button.accordion-button {
+       outline: none !important;
+       border: none !important;
+       box-shadow: none !important;
+       }
+       .text-end {
+       text-align: right!important;
+       }
+       .icon-diamondx {
+       height: 2rem;
+       float: right;
+       }
+       .accordion {
+       --bs-accordion-color: #000;
+       --bs-accordion-bg: #fff;
+       --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
+       --bs-accordion-border-color: var(--bs-border-color);
+       --bs-accordion-border-width: 1px;
+       --bs-accordion-border-radius: 0.375rem;
+       --bs-accordion-inner-border-radius: calc(0.375rem - 1px);
+       --bs-accordion-btn-padding-x: 1.25rem;
+       --bs-accordion-btn-padding-y: 1rem;
+       --bs-accordion-btn-color: var(--bs-body-color);
+       --bs-accordion-btn-bg: var(--bs-accordion-bg);
+       --bs-accordion-btn-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='var%28--bs-body-color%29'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+       --bs-accordion-btn-icon-width: 1.25rem;
+       --bs-accordion-btn-icon-transform: rotate(-180deg);
+       --bs-accordion-btn-icon-transition: transform 0.2s ease-in-out;
+       --bs-accordion-btn-active-icon: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%230c63e4'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e);
+       --bs-accordion-btn-focus-border-color: #86b7fe;
+       --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+       --bs-accordion-body-padding-x: 1.25rem;
+       --bs-accordion-body-padding-y: 1rem;
+       --bs-accordion-active-color: #0c63e4;
+       --bs-accordion-active-bg: #e7f1ff;
+       }
+       .accordion-button::after {
+       flex-shrink: 0;
+       width: var(--bs-accordion-btn-icon-width);
+       height: var(--bs-accordion-btn-icon-width);
+       margin-left: auto;
+       content: "";
+       background-image: var(--bs-accordion-btn-icon);
+       background-repeat: no-repeat;
+       background-size: var(--bs-accordion-btn-icon-width);
+       transition: var(--bs-accordion-btn-icon-transition);
+       }
+       .accordion-body {
+       padding: var(--bs-accordion-body-padding-y) var(--bs-accordion-body-padding-x);
+       background: #1e1e1e;
+       }
+
+       .accordion-button {
+       box-shadow: none !important;
+       position: relative;
+       display: flex;
+       align-items: center;
+       width: 100%;
+       padding: var(--bs-accordion-btn-padding-y) var(--bs-accordion-btn-padding-x);
+       font-size: 1rem;
+       color: var(--bs-accordion-btn-color);
+       text-align: left;
+       background-color: var(--bs-accordion-btn-bg);
+       border: 0;
+       border-radius: 0;
+       overflow-anchor: none;
+       transition: var(--bs-accordion-transition);
+       }
+       .accordion-button.collapsed::after {
+       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+       }
+       .accordion-button:not(.collapsed)::after {
+       background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+       }
+       .boks {
+       box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),0 2px 4px -1px rgba(0, 0, 0, 0.06);
+       border-radius: 6px;
+       }
+       .col-sm-4, .col-6 {
+        padding-right: 8px;
+        padding-left: 8px;
+       }
+       .btn-category {
+            border-radius: 8px;
+            color: var(--warna_text2);
+            background-color: #32323E;
+            cursor: pointer;
+        
+        }
+        
+        .btn-category p {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .btn-category.active {
+            color: var(--warna_text2);
+            background-color: var(--warna_3);
+        
+        }
+        
+        .garis-panjang {
+            padding: 13px;
+            text-align: center;
+            position: relative;
+        }
+        
+        .garis-panjang::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 95%;
+            height: 3.35px;
+            background-color: #24c020;
+            border-radius: 2.5px;
+        }
+        
+        .card-body {
+            padding: 0rem;
+        }
+    </style>
+
+                </head>
+    <body>
+        <div class="content">
+            <header>
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark  bg-custom">
+                    <div class="container">
+                        <a class="navbar-brand" style="padding: 0px 0px;" href="/index.html">
+                            <img src="/assets/images/1675445123_85a18a23fe91b1eda6a0.png" width="120" alt="logo icon" class="rounded">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse menu-utama" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-item nav-link active" href="/index.html">Home</a>
+                                <a class="nav-item nav-link " href="/payment">Cek Pesanan</a>
+                                <a class="nav-item nav-link " href="/tabelharga" hidden>Daftar Harga</a>
+                                <a class="nav-item nav-link " href="/price" hidden>Daftar Harga</a>
+                                <a class="nav-item nav-link " href="/method" hidden>Metode Pembayaran</a>
+                                <div class="dropdown" style="cursor:pointer;">
+                                    <style>
+                                    .dropdown-toggle::after {
+                                        display:none;
+                                        
+                                    }
+                                    </style>
+									   <span class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+									    	<a class="nav-item nav-link" >Kalkulator ML</a>
+									    </span>
+									    <div class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton" style="left: auto;right: 0;box-shadow: none !important;background: var(--warna_2) !important;">
+									        <a class="dropdown-item text-white " href="/kalkulatorwr">Kalkulator WR</a>
+									        <a class="dropdown-item text-white " href="/hpmagicwheel">HP Magic Wheel</a>
+									    </div>
+								</div>
+                                                                                                                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            
+            
+
+
+
+                    <div class="clearfix pt-4"></div>
+            <div class="pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="section " style="padding:20px;margin-bottom:20px;background:#242424;">
+                            <div class="text-center pt-3 pb-2">
+                                <img src="https://topupdiamond.com/assets/images/games/1684225107_e7e5920a3709e78f0b09.webp" class="mb-3" style="display: block; margin: 0 auto; border-radius: 10px !important;" width="120px" height="120px">
+                                <h5></h5>
+                            </div>
+                            <div class="pb-3" style="text-align: center;">
+                                <p><strong>Proses Otomatis 1-30 Menit</strong></p>
+
+<p><strong>Open 24 Jam</strong></p>
+
+<p><strong>QRIS TANPA BIAYA ADMIN</strong></p>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+
+                                                        
+                            <div class="pb-3">
+                                <div class="section">
+                                    <div class="body-games ">
+                                        <div class="text-white text-center position-absolute circle-primary kotakmiring">
+                                            <span class="rotateback">1</span>
+                                        </div>
+                                        <h5 id="judulgame" style="margin-left: 45px; margin-top: 5px;color:#24c020">Input Data Game</h5>
+                                        <div class="form-row pt-3">
+    <div class="col">
+        <input type="text" name="user_id" class="form-control" placeholder="Masukkan User ID" autocomplete="off">
+        <input type="hidden" name="zone_id" value="1">
+    </div>
+            
+    <div class="col-12" style="margin-top: 10px;">
+        <button class="btn btn-primary btn-sm" type="button" data-bs-toggle="modal" data-bs-target="#petunjukModal" hidden><i aria-hidden="true" class="fa fa-info-circle"></i>Petunjuk</button>
+    </div>
+    <p class="col-12 mt-2" style="font-size: 10px"></p>
+    
+</div>                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="pb-3">
+                                <div class="section">
+                                    <div class="body-games ">
+                                        <div class="text-white text-center position-absolute circle-primary kotakmiring">
+                                                            <span class="rotateback">2</span>
+                                         </div>
+                                        <h5 style="margin-left: 45px; margin-top: 5px;color:#24c020">Pilih Nominal Layanan</h5>
+                                        <div class="card-body mt-3">
+                                        <div class="row px-2 mt-4 mb-3 garis-panjang d-none">
+                                                                                        <div class="col-md-3 col-6 mb-3" style="display: grid;">
+                                                <div class="text-center px-3 pt-2 pb-2 btn-category active" id="btn-category-95" onclick="select_product_category('95');">
+                                                    <p style="line-height: 30px;margin-bottom: 0;">
+                                                        Lainnya</p>
+                                                </div>
+                                            </div>
+                                                                                    </div>
+                                        
+                                                                    <div class="row pl-2 pr-2  row-category" id="product-category-95">
+                                                                            <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7381"id="product-7381" class="radio-nominale" name="product" value="7381" onchange="get_price(this.value);">
+                                                <label for="product-7381" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7381">61 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    11421                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7382"id="product-7382" class="radio-nominale" name="product" value="7382" onchange="get_price(this.value);">
+                                                <label for="product-7382" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7382">186 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    34662                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3248"id="product-3248" class="radio-nominale" name="product" value="3248" onchange="get_price(this.value);">
+                                                <label for="product-3248" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3248">180 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    36743                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7383"id="product-7383" class="radio-nominale" name="product" value="7383" onchange="get_price(this.value);">
+                                                <label for="product-7383" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7383">318 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    57902                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3249"id="product-3249" class="radio-nominale" name="product" value="3249" onchange="get_price(this.value);">
+                                                <label for="product-3249" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3249">316 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    61329                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7384"id="product-7384" class="radio-nominale" name="product" value="7384" onchange="get_price(this.value);">
+                                                <label for="product-7384" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7384">686 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    116071                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7385"id="product-7385" class="radio-nominale" name="product" value="7385" onchange="get_price(this.value);">
+                                                <label for="product-7385" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7385">1378 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    232275                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3251"id="product-3251" class="radio-nominale" name="product" value="3251" onchange="get_price(this.value);">
+                                                <label for="product-3251" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3251">1368 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    246148                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3252"id="product-3252" class="radio-nominale" name="product" value="3252" onchange="get_price(this.value);">
+                                                <label for="product-3252" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3252">2118 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    346353                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3451"id="product-3451" class="radio-nominale" name="product" value="3451" onchange="get_price(this.value);">
+                                                <label for="product-3451" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3451">3548 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    578892                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7386"id="product-7386" class="radio-nominale" name="product" value="7386" onchange="get_price(this.value);">
+                                                <label for="product-7386" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7386">7108 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    1160043                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3253"id="product-3253" class="radio-nominale" name="product" value="3253" onchange="get_price(this.value);">
+                                                <label for="product-3253" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3253">7048 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    1229496                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                    </div>
+                                                                                                                                        
+                                                                                                                
+                                                                                                
+                                        
+                                        </div>
+                                        
+                                        <div class="d-none">
+                                        <div class="row pt-3 pl-2 pr-2 mb-2">
+                                                                                                                                    <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7381"id="product-7381" class="radio-nominale" name="product" value="7381" onchange="get_price(this.value);">
+                                                <label for="product-7381" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7381">61 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    11421                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7382"id="product-7382" class="radio-nominale" name="product" value="7382" onchange="get_price(this.value);">
+                                                <label for="product-7382" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7382">186 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    34662                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3248"id="product-3248" class="radio-nominale" name="product" value="3248" onchange="get_price(this.value);">
+                                                <label for="product-3248" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3248">180 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    36743                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7383"id="product-7383" class="radio-nominale" name="product" value="7383" onchange="get_price(this.value);">
+                                                <label for="product-7383" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7383">318 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    57902                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3249"id="product-3249" class="radio-nominale" name="product" value="3249" onchange="get_price(this.value);">
+                                                <label for="product-3249" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3249">316 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    61329                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7384"id="product-7384" class="radio-nominale" name="product" value="7384" onchange="get_price(this.value);">
+                                                <label for="product-7384" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7384">686 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    116071                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7385"id="product-7385" class="radio-nominale" name="product" value="7385" onchange="get_price(this.value);">
+                                                <label for="product-7385" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7385">1378 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    232275                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3251"id="product-3251" class="radio-nominale" name="product" value="3251" onchange="get_price(this.value);">
+                                                <label for="product-3251" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3251">1368 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    246148                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3252"id="product-3252" class="radio-nominale" name="product" value="3252" onchange="get_price(this.value);">
+                                                <label for="product-3252" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3252">2118 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    346353                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3451"id="product-3451" class="radio-nominale" name="product" value="3451" onchange="get_price(this.value);">
+                                                <label for="product-3451" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3451">3548 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    578892                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-7386"id="product-7386" class="radio-nominale" name="product" value="7386" onchange="get_price(this.value);">
+                                                <label for="product-7386" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-7386">7108 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    1160043                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                        <div class="col-sm-4 col-6" style="display: flex;">
+                                                <input type="radio"  for="product-3253"id="product-3253" class="radio-nominale" name="product" value="3253" onchange="get_price(this.value);">
+                                                <label for="product-3253" style="display: flex;justify-content: space-between;" >
+                                                    <div >
+                                                    <a style="font-size: 12px;font-weight:600; margin-bottom:0px;display: flex;" for="product-3253">7048 Candy</a>
+                                                    <a style="font-size: 10px;font-weight:500;" class="currency-idr">
+                                                                                                                    1229496                                        
+                                                                                                            
+                                                    </a>
+                                                    </div>
+                                                    
+                                                    <img  onerror="this.style.display='none'"  src="https://topupdiamond.com/assets/images/product/" loading="lazy" class="icon-diamondx">
+                
+                                                </label>
+                                            </div>
+                                                                                    </div>
+                                        
+                                    </div>
+                                                    </div>
+                                                </div>
+                            </div>
+                            
+                            <div class="pb-3" >
+                                   <div class="section section-game" style="border: 0px;box-shadow: none!important;background:var(--warna_2);">
+                                      <div class="body-games ">
+                                         <div class="text-white text-center position-absolute circle-primary kotakmiring">
+                                            <span class="rotateback">3</span>
+                                        </div>
+                                         <h5 style="margin-left: 45px; margin-top: 5px;color:#24c020">Pilih Pembayaran</h5>
+                                                                                  
+                                                                             
+                                                                          <div class="accordion mb-3 mt-3 boks" id="bbank" >
+                                                                                   <div class="accordion-item mb-3" id="cat-QRIS">
+                                            <h2 class="accordion-header mb-0" id="heading-bank">
+                                               <button class="accordion-button collapsed text-white " style="background-color: var(--warna);height: 0;padding: 25px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                               <div class="left">
+                                                                                                                        <i class="fas fa-barcode"></i> &nbspQRIS                                                                                                               </div>
+                                               </button>
+                                            </h2>
+                                            <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="heading1" data-bs-parent="blok1">
+                                               <div class="accordion-body">
+                                                  <div class="row">
+                                                      
+                                                                                                                                                                    <div class="col-6 ceklis" id="metode-2" >
+                                                            <input class="radio-nominal" type="radio" name="method" value="2" id="method-2">
+                                                            <label for="method-2">
+                                                               <div class="row">
+                                                                  <div class="col-12">
+                                                                     <div class="ml-2 mr-2 pb-0">
+                                                                        <img src="https://cdn.store-assets.com/s/1320287/f/14110854.jpg" class="rounded img-fluid mb-1" style="height: 50px;width:auto">
+                                                                     </div>
+                                                                  </div>
+                                                                  <div class="col-12 border-bottom">
+                                                                     <div class="ml-2 mt-2 text-left">
+                                                                        <p class="mb-2" style="font-weight: 600; font-size: 14px;color:#000" id="price-method-Duitku-NQ"></p>
+
+                                                                     </div>
+                                                                  </div>
+                                                                  <div style="font-size: 12px;">
+                                                                     <b class="d-block mb-2 pt-2 mx-4 pt-2">QRIS Tanpa Biaya Admin</b>
+                                                                     <b class="d-block"></b>
+                                                                  </div>
+                                                               </div>
+                                                            </label>
+                                                         </div>
+                                                                                                                                                                          
+                                                  </div>
+                                               </div>
+                                            </div>
+
+                                            <button class="w-100 btn bg-white p-2 border text-end border-top-0 metodebayar" style="border-radius: 0 0 6px 6px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                                                                                                                                           <img src="https://cdn.store-assets.com/s/1320287/f/14110854.jpg" alt="" height="30">
+                                                                                                                                                                                         <img src="https://topupdiamond.com/assets/images/method/1685912042_0df4d3590babf174a976.jpg" alt="" height="30">
+                                                                                                                                        </button>
+                                            
+                                         </div>
+                                                                                  <div class="accordion-item mb-3" id="cat-Convenience Store">
+                                            <h2 class="accordion-header mb-0" id="heading-bank">
+                                               <button class="accordion-button collapsed text-white " style="background-color: var(--warna);height: 0;padding: 25px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                               <div class="left">
+                                                                                                                        <i class="fa fa-shopping-basket"></i>&nbspConvenience Store                                                                                                               </div>
+                                               </button>
+                                            </h2>
+                                            <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="blok2">
+                                               <div class="accordion-body">
+                                                  <div class="row">
+                                                      
+                                                                                                                                                                    <div class="col-6 ceklis" id="metode-22" >
+                                                            <input class="radio-nominal" type="radio" name="method" value="22" id="method-22">
+                                                            <label for="method-22">
+                                                               <div class="row">
+                                                                  <div class="col-12">
+                                                                     <div class="ml-2 mr-2 pb-0">
+                                                                        <img src="https://cdn.store-assets.com/s/1320287/f/14111008.png" class="rounded img-fluid mb-1" style="height: 50px;width:auto">
+                                                                     </div>
+                                                                  </div>
+                                                                  <div class="col-12 border-bottom">
+                                                                     <div class="ml-2 mt-2 text-left">
+                                                                        <p class="mb-2" style="font-weight: 600; font-size: 14px;color:#000" id="price-method-Ipaymu-indomaret"></p>
+
+                                                                     </div>
+                                                                  </div>
+                                                                  <div style="font-size: 12px;">
+                                                                     <b class="d-block mb-2 pt-2 mx-4 pt-2">INDOMARET</b>
+                                                                     <b class="d-block"></b>
+                                                                  </div>
+                                                               </div>
+                                                            </label>
+                                                         </div>
+                                                                                                                                                                                                                               <div class="col-6 ceklis" id="metode-23" >
+                                                            <input class="radio-nominal" type="radio" name="method" value="23" id="method-23">
+                                                            <label for="method-23">
+                                                               <div class="row">
+                                                                  <div class="col-12">
+                                                                     <div class="ml-2 mr-2 pb-0">
+                                                                        <img src="https://cdn.store-assets.com/s/1320287/f/14111020.png" class="rounded img-fluid mb-1" style="height: 50px;width:auto">
+                                                                     </div>
+                                                                  </div>
+                                                                  <div class="col-12 border-bottom">
+                                                                     <div class="ml-2 mt-2 text-left">
+                                                                        <p class="mb-2" style="font-weight: 600; font-size: 14px;color:#000" id="price-method-Ipaymu-alfamart"></p>
+
+                                                                     </div>
+                                                                  </div>
+                                                                  <div style="font-size: 12px;">
+                                                                     <b class="d-block mb-2 pt-2 mx-4 pt-2">ALFAMART</b>
+                                                                     <b class="d-block"></b>
+                                                                  </div>
+                                                               </div>
+                                                            </label>
+                                                         </div>
+                                                                                                                                                                          
+                                                  </div>
+                                               </div>
+                                            </div>
+
+                                            <button class="w-100 btn bg-white p-2 border text-end border-top-0 metodebayar" style="border-radius: 0 0 6px 6px;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                                                                                                                                           <img src="https://cdn.store-assets.com/s/1320287/f/14111008.png" alt="" height="30">
+                                                                                                                                                                                         <img src="https://cdn.store-assets.com/s/1320287/f/14111020.png" alt="" height="30">
+                                                                                                                                        </button>
+                                            
+                                         </div>
+                                                                               </div>
+                                                                       </div>
+                                </div>
+                </div>   
+                                        
+                                        
+                                        
+                            
+                            <div class="pb-3" hidden>
+                                <div class="section">
+                                    <div class="body-games ">
+                                        <div class="text-white text-center position-absolute circle-primary kotakmiring">
+                                            <span class="rotateback">4</span>
+                                        </div>
+                                        <h5 style="margin-left: 45px; margin-top: 5px;color:#24c020">Kode Voucher</h5>
+                                                <div class="form-group pt-3">
+                                                        <input type="text" name="voucher" placeholder="Optional" class="form-control w-80">
+                                                        <button class="btn btn-primary mt-3" type="button" onclick="cek_voucher();">Gunakan</button>
+                                                </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            
+                            <div class="pb-3">
+                                <div class="section">
+                                    <div class="body-games ">
+                                        <div class="text-white text-center position-absolute circle-primary kotakmiring">
+                                            <span class="rotateback">4</span>
+                                        </div>
+                                        <h5 style="margin-left: 45px; margin-top: 5px;color:#24c020">Konfirmasi Pesanan</h5>
+                                        <div class="form-group pt-3">
+
+                                            <input type="text" name="wa" placeholder="Masukan No. Whatsapp" class="form-control" value="" required>
+
+                                            <small class="mt-2 d-block mb-3 white" style="color:#ffffff">
+                                                Dengan membeli otomatis saya menyetujui Ketentuan Layanan.
+                                            </small>
+                                            <button type="button" class="btn btn-primary text-white" onclick="process_order();" id="buyButton">Beli Sekarang</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="modal fade" id="modal-detail">
+                                <div class="modal-dialog modal-dialog-centered">
+                                    <div class="modal-content text-white animated bounceIn" style="background: var(--warna_2);">
+                                        <div class="card-header border-bottom-0">
+                                            <h5 class="text-white">Detail Pembelian</h5>
+                                        </div>
+                                        <div class="modal-body pt-0">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="modal-loading">
+                                <div class="modal-dialog modal-dialog-centered text-center" style="max-width: 100px;">
+                                    <img src="https://topupdiamond.com/assets/images/loading.gif" alt="" width="150" style="border-radius: 40px;">
+                                </div>
+                            </div>
+
+                            <input type="hidden" id="product_id" value="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+        
+            <footer id="aboutus" class="bg-footer">
+                <img src="https://topupdiamond.com/assets/images/waves.png" alt="" width="100%" hidden>
+                <div style="background: var(--warna_2);margin-top: -4px;">
+                    <div class="pt-5 pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6" >
+                                    <img src="/assets/images/1675445123_85a18a23fe91b1eda6a0.png" height="40" alt="logo icon" class="mb-3"  hidden>
+                                    <h5 class="mb-2">MSTORE</h5>
+                                    <p>Tempatnya Top Up Berbagai Game &amp; Aplikasi. Gratis Biaya Admin dengan bayar pakai QRIS. Pengisian Otomatis &amp; Open 24 Jam.</p>
+
+<p>Dijamin Aman, Legal, Nyaman dan Bikin Ketagihan.</p>
+
+<p>&nbsp;</p>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6">
+                                    <h5 class="pb-2">Halaman</h5>
+                                    <ul class="menu-list">
+                                        <li><a href="/index.html">Halaman Utama</a></li>
+                                        <li><a href="/payment">Cek Pesanan</a></li>
+                                        <li><a href="/price" hidden>Daftar Harga</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-sm-3">
+                                    <h5 class="pb-2">Sosial Media Kami</h5>
+                                    <a href="https://www.instagram.com/" style="font-size: 35px;">
+                                        <i class="fab fa-instagram pr-4"></i>
+                                    </a>
+                                    <a href="https://youtube.com" style="font-size: 35px;">
+                                        <i class="fab fa-youtube pr-4"></i>
+                                    </a>
+                                    <a href="https://facebook.com" style="font-size: 35px;">
+                                        <i class="fab fa-facebook pr-4"></i>
+                                    </a>
+                                    <a href="https://www.tiktok.com/" style="font-size: 35px;">
+                                        <img src="/assets/images/tik-tok.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fab-container">
+                    <div class="fab fab-icon-holder" style="background-color:#24C020; padding:5px">
+                      <img src="/assets/images/live-chat.png" class="img-fluid2" alt="">
+                    </div>
+                    
+                    <ul class="fab-options">
+                      <li>
+                        <a href="https://www.instagram.com/" class="text-decoration-none" target="_blank">
+                        <div class="fab-icon-holder" style="background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);">
+                        <i class="fab fa-instagram"></i>
+                        </div>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="https://wa.me/6281211192317" class="text-decoration-none" target="_blank">
+                        <div class="fab-icon-holder" style="background-color: #25D366;">
+                        <i class="fab fa-whatsapp"></i>
+                        </div>
+                        </a>
+                      </li>
+                    </ul>
+                    
+                 </div>
+                <div class="bg-theme1 text-center pb-4"> Copyright © 2024 MSTORE. All Rights Reserved </div>
+            </footer>
+
+
+        <a href="javaScript:void();" class="back-to-top">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+
+      
+        <script src="https://topupdiamond.com/assets/js/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/demidia/webup@main/scriptify.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.10.8/sweetalert2.all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+        <script src="https://tokovalorant.com/assets/js/promobox.js"></script>
+
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var inputNumber = document.querySelector('input[type="number"]');
+        
+            if (inputNumber) {
+                inputNumber.setAttribute('type', 'text');
+                inputNumber.setAttribute('inputmode', 'numeric');
+            }
+        });
+    </script>
+       
+        <script>
+                  
+                  $('.currency-idr').each(function() {
+                    var monetary_value = $(this).text();
+                    var i = new Intl.NumberFormat('id-ID', {
+                        style: 'currency',
+                        currency: 'IDR',
+                        minimumFractionDigits: 0,
+                    }).format(monetary_value);
+                    $(this).text(i);
+                });
+             
+                  function parseNumber(strg) {
+                  var strg = strg || "";
+                  var decimal = '.';
+                  strg = strg.replace(/[^0-9$.,]/g, '');
+                  if(strg.indexOf(',') > strg.indexOf('.')) decimal = ',';
+                  if((strg.match(new RegExp("\\" + decimal,"g")) || []).length > 1) decimal="";
+                  if (decimal !== "" && (strg.length - strg.indexOf(decimal) - 1 == 3) && strg.indexOf("0" + decimal)!==0) decimal = "";
+                  strg = strg.replace(new RegExp("[^0-9$" + decimal + "]","g"), "");
+                  strg = strg.replace(',', '.');
+                  return parseFloat(strg);
+            	}   
+             
+
+
+                function get_price(id = null) {
+
+                                        var jumlah = 1;
+                    
+
+                    $("#product_id").val(id);
+
+                    $.ajax({
+                        url: 'https://topupdiamond.com/games/order/get-price/' + id,
+                        type: 'POST',
+                        data: 'jumlah=' + jumlah,
+                        dataType: 'JSON',
+                        success: function(result) {
+                            for (let price in result) {
+                                $("#price-method-" + result[price].method).text('Rp ' + result[price].price);
+                                
+                                
+                                var harga = parseNumber(result[price].price);
+                                
+                                var balance = document.getElementById("price-method-balance");
+                                
+                                var BCATransfer = document.getElementById("price-method-Manual-BCATransfer");
+                                var BNITransfer = document.getElementById("price-method-Manual-BNITransfer");
+                                var BRITransfer = document.getElementById("price-method-Manual-BRITransfer");
+                                var MandiriTransfer = document.getElementById("price-method-Manual-MandiriTransfer");
+
+                                var qrisc = document.getElementById("price-method-Tripay-QRISC");
+                                var qris1 = document.getElementById("price-method-Tripay-QRIS");
+                                var ovo = document.getElementById("price-method-Tripay-OVO");
+                                var shopee = document.getElementById("price-method-Tripay-SHOPEEPAY");
+                                var vabsi = document.getElementById("price-method-Tripay-BSIVA");
+                                var vabni = document.getElementById("price-method-Tripay-BNIVA");
+                                var vapermata = document.getElementById("price-method-Tripay-PERMATAVA");
+                                var vamandiri = document.getElementById("price-method-Tripay-MANDIRIVA");
+                                var vabri = document.getElementById("price-method-Tripay-BRIVA");
+                                var vabca = document.getElementById("price-method-Tripay-BCAVA");
+                                var indomaret = document.getElementById("price-method-Tripay-INDOMARET");
+                                var alfamart = document.getElementById("price-method-Tripay-ALFAMART");
+                                var alfamidi = document.getElementById("price-method-Tripay-ALFAMIDI");
+                                
+                                var iqris = document.getElementById("price-method-Ipaymu-qris");
+                                var ivabca = document.getElementById("price-method-Ipaymu-bca");
+                                var ivabni = document.getElementById("price-method-Ipaymu-bni");
+                                var ivamandiri = document.getElementById("price-method-Ipaymu-mandiri");
+                                var ivabri = document.getElementById("price-method-Ipaymu-bri");
+                                var ivabsi = document.getElementById("price-method-Ipaymu-bsi");
+                                var ivapermata = document.getElementById("price-method-Ipaymu-permata");
+                                var iindomaret = document.getElementById("price-method-Ipaymu-indomaret");
+                                var ialfamart = document.getElementById("price-method-Ipaymu-alfamart");
+                                
+                                
+                                var qrisdnq = document.getElementById("price-method-Duitku-NQ");
+                                var qrisdlq = document.getElementById("price-method-Duitku-LQ");
+                                var qrisdsp = document.getElementById("price-method-Duitku-SP");
+                                var ovod = document.getElementById("price-method-Duitku-OV");
+                                var danad = document.getElementById("price-method-Duitku-DA");
+                                var shopeed = document.getElementById("price-method-Duitku-SA");
+                                var linkajad = document.getElementById("price-method-Duitku-LA");
+                                var vaatmd = document.getElementById("price-method-Duitku-A1");
+                                var vabnid = document.getElementById("price-method-Duitku-I1");
+                                var dvabri = document.getElementById("price-method-Duitku-BR");
+                                var vamayd = document.getElementById("price-method-Duitku-VA");
+                                var vapermatad = document.getElementById("price-method-Duitku-BT");
+                                var vacimbd = document.getElementById("price-method-Duitku-B1");
+                                var vaagd = document.getElementById("price-method-Duitku-AG");
+                                var vabncd = document.getElementById("price-method-Duitku-NC");
+                                var alfamartd = document.getElementById("price-method-Duitku-FT");
+                                var vamandirid = document.getElementById("price-method-Duitku-M2");
+                                
+                                var qrisx = document.getElementById("price-method-Xendit-ID_DANAqris");
+                                var ovox = document.getElementById("price-method-Xendit-ID_OVO");
+                                var danax = document.getElementById("price-method-Xendit-ID_DANAewallet");
+                                var shopeex = document.getElementById("price-method-Xendit-ID_SHOPEEPAY");
+                                var linkajax = document.getElementById("price-method-Xendit-ID_LINKAJA");
+                                var astrapayx = document.getElementById("price-method-Xendit-ID_ASTRAPAY");
+                                var vabcax = document.getElementById("price-method-Xendit-BCA");
+                                var vabnix = document.getElementById("price-method-Xendit-BNI");
+                                var vamandirix = document.getElementById("price-method-Xendit-MANDIRI");
+                                var vabrix = document.getElementById("price-method-Xendit-BRI");
+                                var vapermatax = document.getElementById("price-method-Xendit-PERMATA");
+                                var vaBJBx = document.getElementById("price-method-Xendit-BJB");
+                                var vaBSIx = document.getElementById("price-method-Xendit-BSI");
+                                var vaSAHABAT_SAMPOERNA = document.getElementById("price-method-Xendit-SAHABAT_SAMPOERNA");
+                                var indomaretx = document.getElementById("price-method-Xendit-INDOMARET");
+                                var alfamartx = document.getElementById("price-method-Xendit-ALFAMART");
+                                
+                                if (balance !== null) {balance.innerHTML = 'Rp ' + (Math.round((harga))).toLocaleString('id-ID');} 
+                                
+                                if (qrisdnq !== null) {qrisdnq.innerHTML = 'Rp ' + (Math.round((harga*1.00)+0)).toLocaleString('id-ID');} 
+                                if (qrisdlq !== null) {qrisdlq.innerHTML = 'Rp ' + (Math.round((harga*1.00)+0)).toLocaleString('id-ID');} 
+                                if (qrisdsp !== null) {qrisdsp.innerHTML = 'Rp ' + (Math.round((harga*1.00)+0)).toLocaleString('id-ID');} 
+                                if (ovod !== null) {ovod.innerHTML = 'Rp ' + (Math.round(harga*1.0167)).toLocaleString('id-ID');}
+                                if (danad !== null) {danad.innerHTML = 'Rp ' + (Math.round(harga*1.0167)).toLocaleString('id-ID');}
+                                if (shopeed !== null) {shopeed.innerHTML = 'Rp ' + (Math.round(harga*1.04)).toLocaleString('id-ID');} 
+                                if (linkajad !== null) {linkajad.innerHTML = 'Rp ' + (Math.round(harga*1.0167)).toLocaleString('id-ID');}
+                                if (vaatmd !== null) {vaatmd.innerHTML = 'Rp ' + (Math.round(harga+3000)).toLocaleString('id-ID');}
+                                if (vaagd !== null) {vaagd.innerHTML = 'Rp ' + (Math.round(harga+3000)).toLocaleString('id-ID');}
+                                if (vabncd !== null) {vabncd.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                if (vabnid !== null) {vabnid.innerHTML = 'Rp ' + (Math.round(harga+3000)).toLocaleString('id-ID');}
+                                if (dvabri !== null) {dvabri.innerHTML = 'Rp ' + (Math.round(harga+3000)).toLocaleString('id-ID');}
+                                if (vamayd !== null) {vamayd.innerHTML = 'Rp ' + (Math.round(harga+3000)).toLocaleString('id-ID');}
+                                if (vapermatad !== null) {vapermatad.innerHTML = 'Rp ' + (Math.round(harga+3000)).toLocaleString('id-ID');}
+                                if (vacimbd !== null) {vacimbd.innerHTML = 'Rp ' + (Math.round(harga+3000)).toLocaleString('id-ID');}
+                                if (alfamartd !== null) {alfamartd.innerHTML = 'Rp ' + (Math.round(harga+2500)).toLocaleString('id-ID');}
+                                if (vamandirid !== null) {vamandirid.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                
+                                if (qrisx !== null) {qrisx.innerHTML = 'Rp ' + (Math.round((harga*1.007)+0)).toLocaleString('id-ID');} 
+                                if (ovox !== null) {ovox.innerHTML = 'Rp ' + (Math.round(harga*1.015)).toLocaleString('id-ID');}
+                                if (shopeex !== null) {shopeex.innerHTML = 'Rp ' + (Math.round(harga*1.015)).toLocaleString('id-ID');} 
+                                if (danax !== null) {danax.innerHTML = 'Rp ' + (Math.round(harga*1.015)).toLocaleString('id-ID');}
+                                if (linkajax !== null) {linkajax.innerHTML = 'Rp ' + (Math.round(harga*1.015)).toLocaleString('id-ID');} 
+                                if (astrapayx !== null) {astrapayx.innerHTML = 'Rp ' + (Math.round(harga*1.015)).toLocaleString('id-ID');} 
+                                if (vabnix !== null) {vabnix.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (vapermatax !== null) {vapermatax.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (vamandirix !== null) {vamandirix.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (vabrix !== null) {vabrix.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (vabcax !== null) {vabcax.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (vaBJBx !== null) {vaBJBx.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (vaBSIx !== null) {vaBSIx.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (vaSAHABAT_SAMPOERNA !== null) {vaSAHABAT_SAMPOERNA.innerHTML = 'Rp ' + (Math.round(harga+5000)).toLocaleString('id-ID');} 
+                                if (indomaretx !== null) {indomaretx.innerHTML = 'Rp ' + (Math.round(harga+6000)).toLocaleString('id-ID');} 
+                                if (alfamartx !== null) {alfamartx.innerHTML = 'Rp ' + (Math.round(harga+6000)).toLocaleString('id-ID');}
+ 
+                                
+                                if (BCATransfer !== null) {BCATransfer.innerHTML = 'Rp ' + (Math.round((harga*1))).toLocaleString('id-ID');}
+                                if (BNITransfer !== null) {BNITransfer.innerHTML = 'Rp ' + (Math.round((harga*1))).toLocaleString('id-ID');} 
+                                if (BRITransfer !== null) {BRITransfer.innerHTML = 'Rp ' + (Math.round((harga*1))).toLocaleString('id-ID');} 
+                                if (MandiriTransfer !== null) {MandiriTransfer.innerHTML = 'Rp ' + (Math.round((harga*1))).toLocaleString('id-ID');} 
+
+                                if (qrisc !== null) {qrisc.innerHTML = 'Rp ' + (Math.round((harga*1.007)+800)).toLocaleString('id-ID');} 
+                                if (qris1 !== null) {qris1.innerHTML = 'Rp ' + (Math.round((harga*1.007)+750)).toLocaleString('id-ID');} 
+                                if (ovo !== null) {ovo.innerHTML = 'Rp ' + (Math.round(harga*1.03)).toLocaleString('id-ID');}
+                                if (shopee !== null) {shopee.innerHTML = 'Rp ' + (Math.round(harga*1.03)).toLocaleString('id-ID');} 
+                                if (vabsi !== null) {vabsi.innerHTML = 'Rp ' + (Math.round(harga+4250)).toLocaleString('id-ID');}
+                                if (vabni !== null) {vabni.innerHTML = 'Rp ' + (Math.round(harga+4250)).toLocaleString('id-ID');} 
+                                if (vabca !== null) {vabca.innerHTML = 'Rp ' + (Math.round(harga+5500)).toLocaleString('id-ID');} 
+                                if (vapermata !== null) {vapermata.innerHTML = 'Rp ' + (Math.round(harga+4250)).toLocaleString('id-ID');} 
+                                if (vamandiri !== null) {vamandiri.innerHTML = 'Rp ' + (Math.round(harga+4250)).toLocaleString('id-ID');} 
+                                if (vabri !== null) {vabri.innerHTML = 'Rp ' + (Math.round(harga+4250)).toLocaleString('id-ID');} 
+                                if (indomaret !== null) {indomaret.innerHTML = 'Rp ' + (Math.round(harga+3500)).toLocaleString('id-ID');} 
+                                if (alfamart !== null) {alfamart.innerHTML = 'Rp ' + (Math.round(harga+6000)).toLocaleString('id-ID');}
+                                if (alfamidi !== null) {alfamidi.innerHTML = 'Rp ' + (Math.round(harga+6000)).toLocaleString('id-ID');}
+                                
+                                if (iqris !== null) {iqris.innerHTML = 'Rp ' + (Math.round((harga*1)+0)).toLocaleString('id-ID');} 
+                                if (ivabca !== null) {ivabca.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                if (ivabni !== null) {ivabni.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                if (ivamandiri !== null) {ivamandiri.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                if (ivabri !== null) {ivabri.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                if (ivabsi !== null) {ivabsi.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                if (ivapermata !== null) {ivapermata.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');}
+                                if (iindomaret !== null) {iindomaret.innerHTML = 'Rp ' + (Math.round(harga+4000)).toLocaleString('id-ID');} 
+                                if (ialfamart !== null) {ialfamart.innerHTML = 'Rp ' + (Math.round(harga+6500)).toLocaleString('id-ID');}
+                                
+
+
+                            }
+                                            
+                        }
+                    });
+                }
+
+                function update_total() {
+                    get_price($("#product_id").val());
+                }
+
+                function process_order() {
+                    
+                    var buyButton = document.getElementById('buyButton');
+                    buyButton.disabled = true; // Menonaktifkan tombol
+
+                                        var user_id = $("input[name=user_id]").val();
+                    var zone_id = $("input[name=zone_id]").val();
+                                        
+                    if (zone_id == undefined) {
+                        zone_id = $("select[name=zone_id]").val();
+                    }
+
+                    var product = $("input[name=product]:checked").val();
+                    var method = $("input[name=method]:checked").val();
+                    var wa = $("input[name=wa]").val();
+                    var voucher = $("input[name=voucher]").val();
+
+                    if (user_id == '' || user_id == ' ') {
+                        Swal.fire('Gagal', 'ID Player harus diisi', 'error');
+                        buyButton.disabled = false;
+                    } else if (zone_id == '' || zone_id == ' ') {
+                        Swal.fire('Gagal', 'ID Player harus diisi', 'error');
+                        buyButton.disabled = false;
+                    } else if (product == '' || product == ' ') {
+                        Swal.fire('Gagal', 'Nominal produk harus dipilih', 'error');
+                        buyButton.disabled = false;
+                    } else if (method == '' || method == ' ') {
+                        Swal.fire('Gagal', 'Pilih metode pembayaran', 'error');
+                        buyButton.disabled = false;
+                    } else if (wa.length < 10 || wa.length > 14) {
+                        Swal.fire('Gagal', 'Nomor Whatsapp tidak sesuai', 'error');
+                        buyButton.disabled = false;
+                    } else {
+                        $.ajax({
+                            url: 'https://topupdiamond.com/games/order/get-detail/' + product,
+                            data: 'user_id=' + user_id + '&zone_id=' + zone_id + '&method=' + method + '&wa=' + wa + '&voucher=' + voucher + '&target=default',
+                            type: 'POST',
+                            dataType: 'JSON',
+                            beforeSend: function() {
+                                $("#modal-loading").modal('hide');
+                            }, 
+                            success: function(result) {
+
+                                $("#modal-loading").modal('hide');
+
+                                if (result.status == true) {
+                                    $("#modal-detail div div .modal-body").html(result.msg);
+
+                                    $("#modal-detail").modal('show');
+                                } else {
+                                    Swal.fire({
+                                        title: '<span style="color: black;">Gagal</span>',
+                                        html: '<span style="color: black;">' + result.msg + '</span>',
+                                        icon: 'error',
+                                        didClose: () => {
+                                            buyButton.disabled = false; // Aktifkan tombol setelah Swal.fire ditutup
+                                        }
+                                    });
+                                }
+                            }
+                        });
+                    }
+                    $('#modal-detail').on('hidden.bs.modal', function () {
+        buyButton.disabled = false; // Mengaktifkan tombol kembali
+    });
+                }
+                
+            function nonaktif_button() 
+            {
+                  document.getElementById('1xorder').style.visibility = 'hidden';
+            }
+
+            function cek_voucher() {
+
+                    var product = $("input[name=product]:checked").val();
+                    var voucher = $("input[name=voucher]").val();
+
+                    if (voucher == '' || voucher == ' ') {
+                        Swal.fire('Gagal', 'Kode voucher harus diisi', 'error');
+                    } else if (product == '' || product == ' ') {
+                        Swal.fire('Gagal', 'Nominal produk harus dipilih', 'error');
+                    } else if (product == undefined) {
+                        Swal.fire('Gagal', 'Nominal produk harus dipilih', 'error');
+                    } else {
+                        $.ajax({
+                            url: 'https://topupdiamond.com/games/voucher/' + product,
+                            data: 'voucher=' + voucher,
+                            type: 'POST',
+                            dataType: 'JSON',
+                            success: function(result) {
+                                if (result.success) {
+                                    Swal.fire('Berhasil', result.msg, 'success');
+                                } else {
+                                    Swal.fire('Gagal', result.msg, 'error');
+                                }
+                            }
+                        });
+                    }
+                }
+                
+            function select_product_category(id) {
+    $(".row-category").addClass('d-none');
+    $("#product-category-" + id).removeClass('d-none');
+
+    $(".btn-category").removeClass('active');
+    $("#btn-category-" + id).addClass('active');
+}
+        
+
+            </script>
+              
+                </body>
+</html>

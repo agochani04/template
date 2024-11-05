@@ -1,0 +1,2668 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>TopUpDiamond.com - Bergaransi & Gratis Biaya Admin</title>
+
+        <meta name="description" content="Tempatnya Top Up Berbagai Game &amp; Aplikasi. Gratis Biaya Admin dengan bayar pakai QRIS. Pengisian Otomatis &amp; Open 24 Jam.
+
+Dijamin Aman, Legal, Nyaman dan Bikin Ketagihan.
+
+&nbsp;
+">
+        <meta name="keywords" content="Top Up Diamond, MLBB, PUBG, Free Fire, UC PUBG, Mobile Legends, Valorant, Genshin Impact">
+        <meta name="theme-color" content="#32323E" >
+
+
+
+
+        <link rel="shortcut icon" href="https://topupdiamond.com/assets/images/favicon.png">
+        <link rel="stylesheet" href="https://topupdiamond.com/assets/css/bootstrap.min.css">
+    <link rel="stylesheet"
+        href="https://topupdiamond.com/assets/plugins/bootstrap-datatable/css/dataTables.bootstrap4.min.css">
+    
+    <link rel="stylesheet" href="https://topupdiamond.com/assets/css/icons.css">
+    
+    <link rel="stylesheet" href="https://topupdiamond.com/assets/css/app-style.css">
+    <link rel="stylesheet" href="https://topupdiamond.com/assets/css/style-main.css">
+    <link href="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/css/swiper.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+        <style>
+           
+            
+            a {
+                color: #fff;
+            }
+            
+            .shadow-navbar {
+                box-shadow: 0 100px 80px hsl(0deg 0% 89% / 7%), 0 41.7776px 33.4221px hsl(0deg 0% 89% / 5%), 0 22.3363px 17.869px hsl(0deg 0% 89% / 4%), 0 12.5216px 10.0172px hsl(0deg 0% 89% / 4%), 0 6.6501px 5.32008px hsl(0deg 0% 89% / 3%), 0 2.76726px 2.21381px hsl(0deg 0% 89% / 2%);
+            }
+            .content {
+                min-height: 446px;
+                padding-top: 50px;
+            }
+            .table-white tr th, .table-white tr td {
+                color: #ffe7d0;
+                border-color: #242f3a;
+            }
+            .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+                color: #24C020;
+            }
+            .rotateback {
+                transform: rotate(-45deg) !important;
+                    font-size: 16px;
+            }
+            .kotakmiring {
+                 transform: rotate(45deg); border-radius: 0px !important;display:flex; justify-content: center;height: 25px;width: 25px;
+            }
+            label {
+                font-weight: 500;
+                text-transform: none;
+            }
+            .col-form-label {
+                padding-top: calc(.375rem + 3px);
+            }
+            .card-tools {
+                float: right;
+                margin-top: -25px;
+            }
+            .cursor-pointer {
+                cursor: pointer;
+            }
+            .menu-user a {
+                padding: 10px 16px;
+                border-radius: 5px;
+                color: #32323e;
+            }
+            .menu-user a:hover {
+                background: #32323e;
+            }
+            .menu-user a i {
+                font-size: 19px;
+                width: 20px;
+            }
+            .menu-user {
+                margin-bottom: 26px;
+            }
+            .daterangepicker td, .daterangepicker th {
+                color: #626262;
+            }
+            .circle-primary {
+                background: 
+                #24c020;
+                color: #212529;
+            }
+            .bg-footer {
+                background-color: var(--warna);
+            }
+            .bg-theme1, .bg-custom {
+                background: var(--warna_2) !important;
+                padding: 10px 20px 10px 20px;
+            }
+            .btn-topup, .back-to-top {
+                background: var(--warna_3);
+            }
+            .section {
+                background: var(--warna_2);
+            }
+            .radio-nominale + label {
+                background: #32323E;
+                border: 2px solid;
+                border-color: #ffffff00;
+                font-size: 14px;
+                color: #ffffff;
+                font-weight: 600;
+                overflow: hidden;
+            }
+            .radio-nominal + label {
+                background: #d0d0d0;
+                filter: grayscale(100%);
+                border: none !important;
+                color: #767676;
+            }
+            
+            .radio-nominale:checked + label{
+                background-color: #24c020 !important;
+                color: #ffffff !important;
+                font-size: 14px;
+                border: 2px solid #24c020;
+            }
+            .radio-nominal:checked + label {
+                background: #24c020;
+                color: #ffffff;
+                font-size: 14px;
+                border: 2px solid #24c020;
+                filter: grayscale(0%);
+            }
+            .owl-dot {
+                display:none;
+            }
+            .strip-primary {
+                background: #24c020;
+            }
+            .btn-primary {
+                background: #24c020 !important;
+                border-color:#24c020 !important;
+            }
+            .sidenav {
+                background: var(--warna_2);
+            }
+            .radio-nominal:checked + label, .table-white tr th, .table-white tr td {
+                border-color: #24c020;
+            }
+            .menu-utama div a {
+                margin: 0 4px;
+            }
+            .menu-utama div a:hover, .menu-utama div a.active {
+                background: transparent;
+                border-radius: 14px 4px;
+            }
+            .navbar-collapse {
+                background: var(--warna_2);
+            }
+            .menu-list {
+                list-style: none;
+                padding-left: 0;
+            }
+            .menu-list li a {
+                display: block;
+                padding: 10px 0;
+                border-bottom: 1px dashed var(--warna_3);
+                transition: .4s;
+            }
+            .menu-list li a:hover {
+                padding-left: 6px;
+            }
+            .row-search {
+                margin-right: -12.5px;
+                margin-left: -12.5px;
+                padding-bottom: 20px; 
+            }
+            .tes-card {
+                padding: 0.2rem;
+                box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%);
+                border-radius: 0.5rem;
+                text-align: center;
+                background: #fff;
+                display: block;
+                text-decoration: none;
+                color: #333;
+                height: 120px;
+                margin-bottom: 4rem!important;
+            }
+            .card-subtitle {
+                margin-top: -20px;
+            }
+            .tes-img {
+                border-radius: 10px;
+                display: block;
+                transform: translate(-50%,-70%)!important;
+                left: 50%!important;
+                position: absolute!important;
+                width: 70%;
+            }
+            .tes-card-title {
+                margin-top: 15px;
+                padding: 3px;
+               padding-bottom: 10px;
+                color: #212427;
+                font-size: 0.75rem;
+                letter-spacing: .5px;
+                font-weight: 300;
+            }
+            .card-topup {
+                display: none;
+            }
+            .title-hot {
+                    padding-bottom: 3.5rem !important;
+            }
+            .header img {
+                max-width: 300px;
+            }
+            .header {
+                width: 100%;
+                height: 200px;
+                background: #3D3D3D;
+                border-radius: 0 0 1.5rem 1.5rem;
+                text-align: center;
+                padding-top: 10px;
+            }
+            .footer {
+                background-color: #ffe7d0;
+            }
+            .content-body {
+                padding: 0 16px;
+            }
+            .form-control {
+                display: block;
+                width: 100%;
+                padding: 0.375rem 0.75rem;
+                font-size: 1rem;
+                font-weight: 400;
+                line-height: 1.5;
+                color: #212529;
+                background-color: #fff;
+                background-clip: padding-box;
+                border: 1px solid #ced4da;
+                -webkit-appearance: none;
+                -moz-appearance: none;
+                appearance: none;
+                border-radius: 0.375rem;
+                transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+            }
+            .carousel {
+                position: relative;
+                margin-top: 30px;
+            }
+            .owl-carousel.owl-hidden {
+                opacity: 0;
+            }
+            .owl-carousel.owl-rtl {
+                direction: rtl;
+            }
+            .owl-carousel .owl-stage-outer {
+                position: relative;
+                overflow: hidden;
+                -webkit-transform: translate3d(0,0,0);
+            } 
+            .owl-carousel .owl-nav.disabled {
+                display: none;
+            }
+            .owl-carousel .owl-item img {
+                display: block;
+                width: 100%;
+            }
+            .item .metode {
+                margin: 5px 0;
+                background: #fff;
+                border-radius: 8px;
+                padding: 0.75rem;
+                box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%), 0 2px 4px -1px rgb(0 0 0 / 6%) !important;
+            }
+            .owl-carousel .owl-item {
+                min-height: 1px;
+                float: left;
+                -webkit-backface-visibility: hidden;
+                -webkit-touch-callout: none;
+            }
+            .sosmed {
+                margin-bottom: 20px;
+                font-size:25px;
+            }
+            .sosmed a img {
+                width: 24px;
+            }
+            .menu-bottom {
+                position: fixed;
+                bottom: 0;
+                background: #E2E8F0;
+                width: 100%;
+                max-width: 480px;
+                border-top: 1px solid #E2E8F0;
+                padding: 0.25rem 0;
+                text-align: center;
+                z-index: 2;
+                text-decoration: none;
+                font-size: 24px;
+                font-size: 0.875rem;
+                margin-top: -5px;
+                font-weight: 400;
+                padding-top: 18px;
+            }
+            .px-2 {
+                padding-right: 0.5rem!important;
+                padding-left: 0.5rem!important;
+            }
+            .row {
+                --bs-gutter-x: 1.5rem;
+                --bs-gutter-y: 0;
+                display: flex;
+                flex-wrap: wrap;
+                margin-top: calc(-1 * var(--bs-gutter-y));
+                margin-right: calc(-.5 * var(--bs-gutter-x));
+                margin-left: calc(-.5 * var(--bs-gutter-x));
+            }
+            .col-4 {
+                flex: 0 0 auto;
+                width: 33.33333333%;
+            }
+            a:hover {
+                color: #24c020;
+                text-decoration: none;
+            }
+            .menu-bottom i {
+                font-size: 24px;
+            }
+            .mdi-home:before {
+                content: "\F2DC";
+            }
+            .mdi-history:before {
+                content: "\F2DC";
+            }
+            .mdi-account-circle:before {
+                content: "\F2DC";
+            }
+            .mdi:before, .mdi-set {
+                display: inline-block;
+                font: normal normal normal 24px/1 "Material Design Icons";
+                font-size: inherit;
+                text-rendering: auto;
+                line-height: inherit;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+            }
+            .lb {
+                border-top: 7px solid #f18b2b;
+            }
+            .pb-5 {
+                padding-bottom: 4rem!important;
+            }
+            .section-game {
+                background: var(--warna_2);
+            }
+            
+             :root {
+                --warna: #282828;
+                --warna_2: #000;
+                --warna_3: #24c020;
+            }
+            
+            .game-desc-1 {
+                padding-bottom: 1rem!important;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+            .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                color: #212529;
+            }
+            .body-games {
+                background: #242424;
+                flex: 1 1 auto;
+                padding: 1.25rem;
+            }
+            .button-beli {
+                position: fixed;
+                bottom: 0;
+                background: #fff;
+                width: 100%;
+                max-width: 480px;
+                border-top: 1px solid #E2E8F0;
+                padding: 0.25rem 0;
+                text-align: center;
+                z-index: 2;
+                text-decoration: none;
+                font-size: 24px;
+                font-size: 0.875rem;
+                margin-top: -5px;
+                font-weight: 400;
+                padding: 24px;
+                padding-top: 24px;
+            }
+            small {
+                font-size: 100%;
+
+            }
+            .sec-rnt {
+                background: #ffe7d0;
+            }
+            .pb-5-rnt {
+                padding: 10px;
+            }
+            .product-list {
+				border-radius: 0.5rem;
+				box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+				overflow: hidden;
+			}
+			.product-list b {
+				font-size: 0.85rem;
+				font-weight: 600;
+			}
+			.product-list span {
+				font-size: 11px;
+				color: #718096;
+			}
+			.product-list.active {
+				border: 1px solid var(--warna_2) !important;
+			}
+			.product-list.active b {
+				margin-top: -53px;
+			}
+			.radio-nominale:checked + label:after {
+                position: absolute;
+                top: 0;
+                left: 0.782rem;
+                width: 28px;
+                height: 28px;
+                content: "";
+                
+                text-align: center;
+                border-radius: 0 5px 0 0;
+            }
+            .radio-nominal:checked + label:after {
+                position: absolute;
+                top: 0;
+                left: 0.782rem;
+                width: 28px;
+                height: 28px;
+                content: "";
+                
+                text-align: center;
+                border-radius: 0 5px 0 0;
+            }
+                    
+            
+            .after-payment {
+                padding-bottom: 1.5rem!important;
+                text-align: center;
+            }
+            .trims-1 {
+                text-align: center;
+            }
+            .box-back {
+                width: 38px;
+                height: 38px;
+                background: #33333354;
+                text-align: center;
+                border-radius: 30px;
+                display: inline-block;
+                transition: 0.5s;
+                margin-left: 20px;
+                    margin-top: 16px;
+                    position: absolute;
+            }
+                        .box-back i {
+                font-size: 22px;
+                margin-top: 7px;
+                color: #fff;
+                z-index:999;
+            }
+            .fa-angle-left {
+                z-index:999
+            }
+            .pb-3-details {
+                    padding-bottom: 0px!important;
+                    padding: 0px 10px 0px 10px!important;
+                    border-radius: 15px;
+            }
+            .p-3-detail {
+                border-radius: 15px;
+            }
+            .body-games-details {    
+                border-radius: 0px 0px 10px 10px;
+                margin-bottom: 8px;
+            }
+            body {
+                background-color: #0c0c0c;
+                color: #ffffff;
+            }
+            .fab-container {
+                position: fixed;
+                bottom: 90px;
+                right: 10px;
+                z-index: 999;
+                cursor: pointer;
+            }
+        
+            .img-fluid2 {
+                max-width: 100%;
+                height: auto;
+                padding-bottom: 15px;
+
+            }
+        
+            .fab-icon-holder {
+                width: 45px;
+                height: 45px;
+                bottom: 140px;
+                left: 10px;
+                color: #FFF;
+                background: #5865f2;
+                border-radius: 10px;
+                text-align: center;
+                font-size: 30px;
+                z-index: 99999;
+            }
+        
+            .fab-icon-holder:hover {
+                opacity: 0.8;
+            }
+        
+            .fab-icon-holder i {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 100%;
+                font-size: 25px;
+                color: #ffffff;
+            }
+        
+            .fab-options {
+                list-style-type: none;
+                margin: 0;
+                position: absolute;
+                bottom: 48px;
+                left: -45px;
+                opacity: 0;
+                transition: all 0.3s ease;
+                transform: scale(0);
+                transform-origin: 85% bottom;
+            }
+        
+            .fab:hover+.fab-options,
+            .fab-options:hover {
+                opacity: 1;
+                transform: scale(1);
+            }
+        
+            .fab-options li {
+                display: flex;
+                justify-content: flex-start;
+                padding: 5px;
+            }
+        
+            .fab-label {
+                padding: 2px 5px;
+                align-self: center;
+                user-select: none;
+                white-space: nowrap;
+                border-radius: 3px;
+                font-size: 16px;
+                background: #666666;
+                color: #ffffff;
+                box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+                margin-left: 10px;
+            }
+        
+            .text-decoration-none {
+            text-decoration: none!important; }
+                  
+            .card-title2 {
+                min-height: 30px !important;
+                margin-top: -25px !important;
+                font-weight: 600 !important;
+                font-size: 10px !important;
+                color: #fff !important;
+                background: #212427 !important;
+                padding-top: 8px !important;
+                margin-bottom: 0px !important;
+            } 
+            
+            .backdrop {
+                margin: -17px 10px 0px 10px;
+                font-weight: 600 !important;
+                font-size: 0.7rem !important;
+                color: #fff !important;
+                background-color: rgb(40 40 40 / 36%);
+                border-radius: 0.75rem;
+                padding: 13px 5px 13px 5px;
+                --tw-backdrop-saturate: saturate(2);
+                backdrop-filter: var(--tw-backdrop-blur) var(--tw-backdrop-saturate);
+                --tw-backdrop-blur: blur(12px);
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                    
+            }
+            .container {
+                max-width: 1200px !important;
+            }
+            .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+                font-weight: 600;
+                color: #fff;
+            }
+        .shadow-form {
+                box-shadow: 0 4px 80px hsl(0deg 0% 77% / 13%), 0 1.6711px 33.4221px hsl(0deg 0% 77% / 9%), 0 0.893452px 17.869px hsl(0deg 0% 77% / 8%), 0 0.500862px 10.0172px hsl(0deg 0% 77% / 7%), 0 0.266004px 5.32008px hsl(0deg 0% 77% / 5%), 0 0.11069px 2.21381px hsl(0deg 0% 77% / 4%);
+            }
+        .section-game {
+                border: 1px solid #e3e7ea;
+                box-shadow: 0px 2px 1px #c9c9c9;
+            }
+            .card {
+                background-color: #32323e !important;
+            }
+
+            
+        </style>
+
+                    <style>
+                @media (min-width:976px) {
+                    #promoImage {
+                    height: 500px;
+                    width: auto;
+                    }
+                    .PB-5 {
+                        padding: 10px !important;
+                    }
+                    .nav-pills .nav-link {
+                    font-size: 12px !important;
+                    padding: 12px 20px !important;
+                    }
+                }
+                
+                @media (max-width:900px) {
+                    #promoImage {
+                    height: auto;
+                    width: 100%;
+                    }
+                }
+                
+                @media (min-width:976px) {
+                    .swiper-container {
+                    width: 1200px !important;
+                    }
+                }
+                .judul-game {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                }
+                .backdrop {
+                    margin: -17px 5px 0 5px !important;
+                }
+                .nav-pills .nav-link {
+                    font-size: 11px;
+                    padding: 10px 20px;
+                }
+                .tab-category.nav-pills .nav-link {
+                    color: #ddd;
+                }
+                .tab-category.nav-pills .nav-link:hover {
+                    color: #fff;
+                }
+                .btn {
+                    border-radius: 0rem .25rem .25rem 0rem;
+                }
+                .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+                color: #fff;
+                background-color: var(--warna_3);
+            }
+                
+                .swiper-pagination-bullet{border: 1px solid #1da1f2;}.swiper-pagination-bullet-active{background:#1da1f2}
+                img:not([draggable]), embed, object, video {
+                    max-width: 100%;
+                    height: auto;
+                }
+                
+                .swiper-container {
+                    margin-left: auto;
+                    margin-right: auto;
+                    position: relative;
+                    overflow: hidden;
+                    z-index: 1
+                }
+                
+                .swiper-container-no-flexbox .swiper-slide {
+                    float: left
+                }
+                
+                .swiper-container-vertical>.swiper-wrapper {
+                    -webkit-box-orient: vertical;
+                    -ms-flex-direction: column;
+                    flex-direction: column
+                }
+                
+                .swiper-wrapper {
+                    position: relative;
+                    width: 100%;
+                    height: 100%;
+                    z-index: 1;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-transition-property: -webkit-transform;
+                    transition-property: -webkit-transform;
+                    transition-property: transform;
+                    transition-property: transform, -webkit-transform;
+                    box-sizing: content-box
+                }
+                
+                .swiper-container-android .swiper-slide,
+                .swiper-wrapper {
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0)
+                }
+                
+                .swiper-container-multirow>.swiper-wrapper {
+                    -webkit-box-lines: multiple;
+                    -moz-box-lines: multiple;
+                    -ms-flex-wrap: wrap;
+                    flex-wrap: wrap
+                }
+                
+                .swiper-container-free-mode>.swiper-wrapper {
+                    -webkit-transition-timing-function: ease-out;
+                    transition-timing-function: ease-out;
+                    margin: 0 auto
+                }
+                
+                .swiper-slide {
+                    -webkit-flex-shrink: 0;
+                    -ms-flex: 0 0 auto;
+                    -ms-flex-negative: 0;
+                    flex-shrink: 0;
+                    width: 100%;
+                    height: 100%;
+                    position: relative
+                }
+                
+                .swiper-container-autoheight,
+                .swiper-container-autoheight .swiper-slide {
+                    height: auto
+                }
+                
+                .swiper-container-autoheight .swiper-wrapper {
+                    -webkit-box-align: start;
+                    -ms-flex-align: start;
+                    align-items: flex-start;
+                    -webkit-transition-property: -webkit-transform, height;
+                    -webkit-transition-property: height, -webkit-transform;
+                    transition-property: height, -webkit-transform;
+                    transition-property: transform, height;
+                    transition-property: transform, height, -webkit-transform
+                }
+                
+                .swiper-container .swiper-notification {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    pointer-events: none;
+                    opacity: 0;
+                    z-index: -1000
+                }
+                
+                .swiper-wp8-horizontal {
+                    -ms-touch-action: pan-y;
+                    touch-action: pan-y
+                }
+                
+                .swiper-wp8-vertical {
+                    -ms-touch-action: pan-x;
+                    touch-action: pan-x
+                }
+                
+                .swiper-button-next,
+                .swiper-button-prev {
+                    position: absolute;
+                    top: 50%;
+                    width: 27px;
+                    height: 44px;
+                    margin-top: -22px;
+                    z-index: 10;
+                    cursor: pointer;
+                    background-size: 27px 44px;
+                    background-position: center;
+                    background-repeat: no-repeat
+                }
+                
+                .swiper-button-next.swiper-button-disabled,
+                .swiper-button-prev.swiper-button-disabled {
+                    opacity: .35;
+                    cursor: auto;
+                    pointer-events: none
+                }
+                
+                .swiper-button-prev,
+                .swiper-container-rtl .swiper-button-next {
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+                    left: 10px;
+                    right: auto
+                }
+                
+                .swiper-button-prev.swiper-button-black,
+                .swiper-container-rtl .swiper-button-next.swiper-button-black {
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+                }
+                
+                .swiper-button-prev.swiper-button-white,
+                .swiper-container-rtl .swiper-button-next.swiper-button-white {
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M0%2C22L22%2C0l2.1%2C2.1L4.2%2C22l19.9%2C19.9L22%2C44L0%2C22L0%2C22L0%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+                }
+                
+                .swiper-button-next,
+                .swiper-container-rtl .swiper-button-prev {
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23007aff'%2F%3E%3C%2Fsvg%3E");
+                    right: 10px;
+                    left: auto
+                }
+                
+                .swiper-button-next.swiper-button-black,
+                .swiper-container-rtl .swiper-button-prev.swiper-button-black {
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23000000'%2F%3E%3C%2Fsvg%3E")
+                }
+                
+                .swiper-button-next.swiper-button-white,
+                .swiper-container-rtl .swiper-button-prev.swiper-button-white {
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2027%2044'%3E%3Cpath%20d%3D'M27%2C22L27%2C22L5%2C44l-2.1-2.1L22.8%2C22L2.9%2C2.1L5%2C0L27%2C22L27%2C22z'%20fill%3D'%23ffffff'%2F%3E%3C%2Fsvg%3E")
+                }
+                
+                .swiper-pagination {
+                    position: absolute;
+                    text-align: center;
+                    -webkit-transition: .3s;
+                    transition: .3s;
+                    -webkit-transform: translate3d(0, 0, 0);
+                    transform: translate3d(0, 0, 0);
+                    z-index: 10
+                }
+                
+                .swiper-pagination.swiper-pagination-hidden {
+                    opacity: 0
+                }
+                
+                .swiper-container-horizontal>.swiper-pagination-bullets,
+                .swiper-pagination-custom,
+                .swiper-pagination-fraction {
+                    bottom: 10px;
+                    left: 0;
+                    width: 100%
+                }
+                
+                .swiper-pagination-bullet {
+                    width: 8px;
+                    height: 8px;
+                    display: inline-block;
+                    border-radius: 100%;
+                    background: #000;
+                    opacity: .2
+                }
+                
+                button.swiper-pagination-bullet {
+                    border: none;
+                    margin: 0;
+                    padding: 0;
+                    box-shadow: none;
+                    -moz-appearance: none;
+                    -ms-appearance: none;
+                    -webkit-appearance: none;
+                    appearance: none
+                }
+                
+                .swiper-pagination-clickable .swiper-pagination-bullet {
+                    cursor: pointer
+                }
+                
+                .swiper-pagination-white .swiper-pagination-bullet {
+                    background: #fff
+                }
+                
+                .swiper-pagination-bullet-active {
+                    opacity: 1;
+                    background: #007aff
+                }
+                
+                .swiper-pagination-white .swiper-pagination-bullet-active {
+                    background: #fff
+                }
+                
+                .swiper-pagination-black .swiper-pagination-bullet-active {
+                    background: #000
+                }
+                
+                .swiper-container-vertical>.swiper-pagination-bullets {
+                    right: 10px;
+                    top: 50%;
+                    -webkit-transform: translate3d(0, -50%, 0);
+                    transform: translate3d(0, -50%, 0)
+                }
+                
+                .swiper-container-vertical>.swiper-pagination-bullets .swiper-pagination-bullet {
+                    margin: 5px 0;
+                    display: block
+                }
+                
+                .swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+                    margin: 0 5px
+                }
+                
+                .swiper-pagination-progress {
+                    background: rgba(0, 0, 0, .25);
+                    position: absolute
+                }
+                
+                .swiper-pagination-progress .swiper-pagination-progressbar {
+                    background: #007aff;
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    -webkit-transform: scale(0);
+                    transform: scale(0);
+                    -webkit-transform-origin: left top;
+                    transform-origin: left top
+                }
+                
+                .swiper-container-rtl .swiper-pagination-progress .swiper-pagination-progressbar {
+                    -webkit-transform-origin: right top;
+                    transform-origin: right top
+                }
+                
+                .swiper-container-horizontal>.swiper-pagination-progress {
+                    width: 100%;
+                    height: 4px;
+                    left: 0;
+                    top: 0
+                }
+                
+                .swiper-container-vertical>.swiper-pagination-progress {
+                    width: 4px;
+                    height: 100%;
+                    left: 0;
+                    top: 0
+                }
+                
+                .swiper-pagination-progress.swiper-pagination-white {
+                    background: rgba(255, 255, 255, .5)
+                }
+                
+                .swiper-pagination-progress.swiper-pagination-white .swiper-pagination-progressbar {
+                    background: #fff
+                }
+                
+                .swiper-pagination-progress.swiper-pagination-black .swiper-pagination-progressbar {
+                    background: #000
+                }
+                
+                .swiper-container-3d {
+                    -webkit-perspective: 1200px;
+                    -o-perspective: 1200px;
+                    perspective: 1200px
+                }
+                
+                .swiper-container-3d .swiper-cube-shadow,
+                .swiper-container-3d .swiper-slide,
+                .swiper-container-3d .swiper-slide-shadow-bottom,
+                .swiper-container-3d .swiper-slide-shadow-left,
+                .swiper-container-3d .swiper-slide-shadow-right,
+                .swiper-container-3d .swiper-slide-shadow-top,
+                .swiper-container-3d .swiper-wrapper {
+                    -webkit-transform-style: preserve-3d;
+                    transform-style: preserve-3d
+                }
+                
+                .swiper-container-3d .swiper-slide-shadow-bottom,
+                .swiper-container-3d .swiper-slide-shadow-left,
+                .swiper-container-3d .swiper-slide-shadow-right,
+                .swiper-container-3d .swiper-slide-shadow-top {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    pointer-events: none;
+                    z-index: 10
+                }
+                
+                .swiper-container-3d .swiper-slide-shadow-left {
+                    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 0)));
+                    background-image: -webkit-linear-gradient(right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+                    background-image: linear-gradient(to left, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+                }
+                
+                .swiper-container-3d .swiper-slide-shadow-right {
+                    background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 0)));
+                    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+                    background-image: linear-gradient(to right, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+                }
+                
+                .swiper-container-3d .swiper-slide-shadow-top {
+                    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 0)));
+                    background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+                    background-image: linear-gradient(to top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+                }
+                
+                .swiper-container-3d .swiper-slide-shadow-bottom {
+                    background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, 0)));
+                    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+                    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0))
+                }
+                
+                .swiper-container-coverflow .swiper-wrapper,
+                .swiper-container-flip .swiper-wrapper {
+                    -ms-perspective: 1200px
+                }
+                
+                .swiper-container-cube,
+                .swiper-container-flip {
+                    overflow: visible
+                }
+                
+                .swiper-container-cube .swiper-slide,
+                .swiper-container-flip .swiper-slide {
+                    pointer-events: none;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden;
+                    z-index: 1
+                }
+                
+                .swiper-container-cube .swiper-slide .swiper-slide,
+                .swiper-container-flip .swiper-slide .swiper-slide {
+                    pointer-events: none
+                }
+                
+                .swiper-container-cube .swiper-slide-active,
+                .swiper-container-cube .swiper-slide-active .swiper-slide-active,
+                .swiper-container-flip .swiper-slide-active,
+                .swiper-container-flip .swiper-slide-active .swiper-slide-active {
+                    pointer-events: auto
+                }
+                
+                .swiper-container-cube .swiper-slide-shadow-bottom,
+                .swiper-container-cube .swiper-slide-shadow-left,
+                .swiper-container-cube .swiper-slide-shadow-right,
+                .swiper-container-cube .swiper-slide-shadow-top,
+                .swiper-container-flip .swiper-slide-shadow-bottom,
+                .swiper-container-flip .swiper-slide-shadow-left,
+                .swiper-container-flip .swiper-slide-shadow-right,
+                .swiper-container-flip .swiper-slide-shadow-top {
+                    z-index: 0;
+                    -webkit-backface-visibility: hidden;
+                    backface-visibility: hidden
+                }
+                
+                .swiper-container-cube .swiper-slide {
+                    visibility: hidden;
+                    -webkit-transform-origin: 0 0;
+                    transform-origin: 0 0;
+                    width: 100%;
+                    height: 100%
+                }
+                
+                .swiper-container-cube.swiper-container-rtl .swiper-slide {
+                    -webkit-transform-origin: 100% 0;
+                    transform-origin: 100% 0
+                }
+                
+                .swiper-container-cube .swiper-slide-active,
+                .swiper-container-cube .swiper-slide-next,
+                .swiper-container-cube .swiper-slide-next+.swiper-slide,
+                .swiper-container-cube .swiper-slide-prev {
+                    pointer-events: auto;
+                    visibility: visible
+                }
+                
+                .swiper-container-cube .swiper-cube-shadow {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: #000;
+                    opacity: .6;
+                    -webkit-filter: blur(50px);
+                    filter: blur(50px);
+                    z-index: 0
+                }
+                
+                .swiper-container-fade.swiper-container-free-mode .swiper-slide {
+                    -webkit-transition-timing-function: ease-out;
+                    transition-timing-function: ease-out
+                }
+                
+                .swiper-container-fade .swiper-slide {
+                    pointer-events: none;
+                    -webkit-transition-property: opacity;
+                    transition-property: opacity
+                }
+                
+                .swiper-container-fade .swiper-slide .swiper-slide {
+                    pointer-events: none
+                }
+                
+                .swiper-container-fade .swiper-slide-active,
+                .swiper-container-fade .swiper-slide-active .swiper-slide-active {
+                    pointer-events: auto
+                }
+                
+                .swiper-zoom-container {
+                    width: 100%;
+                    height: 100%;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -webkit-box-pack: center;
+                    -ms-flex-pack: center;
+                    justify-content: center;
+                    -webkit-box-align: center;
+                    -ms-flex-align: center;
+                    align-items: center;
+                    text-align: center
+                }
+                
+                .swiper-zoom-container>canvas,
+                .swiper-zoom-container>img,
+                .swiper-zoom-container>svg {
+                    max-width: 100%;
+                    max-height: 100%;
+                    -o-object-fit: contain;
+                    object-fit: contain
+                }
+                
+                .swiper-scrollbar {
+                    border-radius: 10px;
+                    position: relative;
+                    -ms-touch-action: none;
+                    background: rgba(0, 0, 0, .1)
+                }
+                
+                .swiper-container-horizontal>.swiper-scrollbar {
+                    position: absolute;
+                    left: 1%;
+                    bottom: 3px;
+                    z-index: 50;
+                    height: 5px;
+                    width: 98%
+                }
+                
+                .swiper-container-vertical>.swiper-scrollbar {
+                    position: absolute;
+                    right: 3px;
+                    top: 1%;
+                    z-index: 50;
+                    width: 5px;
+                    height: 98%
+                }
+                
+                .swiper-scrollbar-drag {
+                    height: 100%;
+                    width: 100%;
+                    position: relative;
+                    background: rgba(0, 0, 0, .5);
+                    border-radius: 10px;
+                    left: 0;
+                    top: 0
+                }
+                
+                .swiper-scrollbar-cursor-drag {
+                    cursor: move
+                }
+                
+                .swiper-lazy-preloader {
+                    width: 42px;
+                    height: 42px;
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -21px;
+                    margin-top: -21px;
+                    z-index: 10;
+                    -webkit-transform-origin: 50%;
+                    transform-origin: 50%;
+                    -webkit-animation: swiper-preloader-spin 1s steps(12, end) infinite;
+                    animation: swiper-preloader-spin 1s steps(12, end) infinite
+                }
+                
+                .swiper-lazy-preloader:after {
+                    display: block;
+                    content: "";
+                    width: 100%;
+                    height: 100%;
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%236c6c6c'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
+                    background-position: 50%;
+                    background-size: 100%;
+                    background-repeat: no-repeat
+                }
+                
+                .swiper-lazy-preloader-white:after {
+                    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20viewBox%3D'0%200%20120%20120'%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20xmlns%3Axlink%3D'http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink'%3E%3Cdefs%3E%3Cline%20id%3D'l'%20x1%3D'60'%20x2%3D'60'%20y1%3D'7'%20y2%3D'27'%20stroke%3D'%23fff'%20stroke-width%3D'11'%20stroke-linecap%3D'round'%2F%3E%3C%2Fdefs%3E%3Cg%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(30%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(60%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(90%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(120%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.27'%20transform%3D'rotate(150%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.37'%20transform%3D'rotate(180%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.46'%20transform%3D'rotate(210%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.56'%20transform%3D'rotate(240%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.66'%20transform%3D'rotate(270%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.75'%20transform%3D'rotate(300%2060%2C60)'%2F%3E%3Cuse%20xlink%3Ahref%3D'%23l'%20opacity%3D'.85'%20transform%3D'rotate(330%2060%2C60)'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E")
+                }
+                
+                @-webkit-keyframes swiper-preloader-spin {
+                    100% {
+                        -webkit-transform: rotate(360deg)
+                    }
+                }
+                
+                @keyframes swiper-preloader-spin {
+                    100% {
+                        -webkit-transform: rotate(360deg);
+                        transform: rotate(360deg)
+                    }
+                }
+                
+                .swiper-container.one {
+                    padding-top: 40px;
+                    text-align: center;
+                }
+                
+                .swiper-container.one .swiper-slide {
+                    padding: 0 43px;
+                }
+                
+                .swiper-container {
+                    width: 100%;
+                    padding-bottom: 25px;
+                }
+                
+                .swiper-slide img {
+                    display: block;
+                    margin: auto;
+                    width: 100%;
+                }
+                
+                .swiper-slide {
+                    width: 390px;
+                    height: auto;
+                    padding: 0 15px;
+                }
+                .two .swiper-slide {
+                    width: 300px;
+                }
+                .swiper-slide img {
+                    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+                }
+                
+                .swiper-slide .slider-image .preview-icon {
+                    z-index: -1;
+                    width: calc(100% - 30px);
+                }
+                
+                .swiper-slide.swiper-slide-active .slider-image:hover .preview-icon {
+                    opacity: 1;
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                    z-index: 1;
+                }
+                
+                .swiper-container-horizontal > .swiper-pagination-bullets,
+                .swiper-pagination-custom,
+                .swiper-pagination-fraction {
+                    bottom: 0;
+                }
+                
+                .swiper-pagination-bullet {
+                	background: transparent none repeat scroll 0 0;
+                	border: 1px solid var(--warna_3);
+                	border-radius: 10px;
+                	display: inline-block;
+                	height: 10px;
+                	opacity: 1;
+                	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                	width: 26px;
+                    -webkit-transition: 0.2s;
+                    transition: 0.2s;
+                }
+                
+                .swiper-pagination-bullet-active {
+                    background: var(--warna_3);
+                    border: medium none;
+                    height: 12px;
+                    opacity: 1;
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+                    width: 12px;
+                }
+
+            </style>
+                </head>
+    <body>
+        <div class="content">
+            <header>
+                <nav class="navbar navbar-expand-lg fixed-top navbar-dark  bg-custom">
+                    <div class="container">
+                        <a class="navbar-brand" style="padding: 0px 0px;" href="/index.html">
+                            <img src="/assets/images/1675445123_85a18a23fe91b1eda6a0.png" width="120" alt="logo icon" class="rounded">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse menu-utama" id="navbarNavAltMarkup">
+                            <div class="navbar-nav ml-auto">
+                                <a class="nav-item nav-link active" href="/index.html">Home</a>
+                                <a class="nav-item nav-link " href="/payment">Cek Pesanan</a>
+                                <a class="nav-item nav-link " href="https://topupdiamond.com/tabelharga" hidden>Daftar Harga</a>
+                                <a class="nav-item nav-link " href="https://topupdiamond.com/price" hidden>Daftar Harga</a>
+                                <a class="nav-item nav-link " href="https://topupdiamond.com/method" hidden>Metode Pembayaran</a>
+                                <div class="dropdown" style="cursor:pointer;">
+                                    <style>
+                                    .dropdown-toggle::after {
+                                        display:none;
+                                        
+                                    }
+                                    </style>
+									   <span class="dropdown-toggle" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+									    	<a class="nav-item nav-link" >Kalkulator ML</a>
+									    </span>
+									    <div class="dropdown-menu mt-2" aria-labelledby="dropdownMenuButton" style="left: auto;right: 0;box-shadow: none !important;background: var(--warna_2) !important;">
+									        <a class="dropdown-item text-white " href="/kalkulatorwr">Kalkulator WR</a>
+									        <a class="dropdown-item text-white " href="/hpmagicwheel">HP Magic Wheel</a>
+									    </div>
+								</div>
+                                                                                                                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+            
+            
+
+
+
+                    <div style="padding-top: 20px;">
+                                <div class="swiper-container two">
+                    		<div class="swiper-wrapper">
+                    		                       							<div class="swiper-slide" >
+                    					<div class="slider-image">
+                    						<img src="/assets/images/slider1.png" alt="slide 1">
+                    						
+                    					</div>
+                    				</div>
+                    			                    							<div class="swiper-slide" >
+                    					<div class="slider-image">
+                    						<img src="/assets/images/slider2.png" alt="slide 2">
+                    						
+                    					</div>
+                    				</div>
+                    			                    						<!-- Add Pagination -->
+                    		</div>
+                    </div>
+                            </div>
+            
+                
+
+            
+            <div class="container mb-3">
+                    <div class="PB-5" style="background-color:#282828 !important;border-radius: 10px;padding: 5px; overflow: hidden;/* margin-bottom:15px; *//* margin-top:15px; */">
+                        <ul class="nav nav-pills tab-category text-fontt" id="pills-tab" role="tablist" style="flex-wrap: nowrap;justify-content: flex-start;overflow-y: hidden;    padding-bottom: 0px;">
+                                                        <li class="nav-item">
+                                <a style="white-space: pre;font-weight: 500;    text-transform: capitalize;" class="nav-link active" id="pills-games-tab" data-bs-toggle="pill" href="#pills-games" role="tab" aria-controls="pills-games" aria-selected="true">Games</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a style="white-space: pre;font-weight: 500;    text-transform: capitalize;" class="nav-link " id="pills-streaming-tab" data-bs-toggle="pill" href="#pills-streaming" role="tab" aria-controls="pills-streaming" aria-selected="true">Streaming</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a style="white-space: pre;font-weight: 500;    text-transform: capitalize;" class="nav-link " id="pills-pulsa-tab" data-bs-toggle="pill" href="#pills-pulsa" role="tab" aria-controls="pills-pulsa" aria-selected="true">Pulsa</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a style="white-space: pre;font-weight: 500;    text-transform: capitalize;" class="nav-link " id="pills-pln-tab" data-bs-toggle="pill" href="#pills-pln" role="tab" aria-controls="pills-pln" aria-selected="true">PLN</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a style="white-space: pre;font-weight: 500;    text-transform: capitalize;" class="nav-link " id="pills-paket-internet-tab" data-bs-toggle="pill" href="#pills-paket-internet" role="tab" aria-controls="pills-paket-internet" aria-selected="true">Paket Internet</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a style="white-space: pre;font-weight: 500;    text-transform: capitalize;" class="nav-link " id="pills-voucher-gamer-tab" data-bs-toggle="pill" href="#pills-voucher-gamer" role="tab" aria-controls="pills-voucher-gamer" aria-selected="true">Voucher Gamer</a>
+                            </li>
+                                                    </ul>
+                    </div>
+                </div>
+                
+                        <div class="container">
+                <div class="pt-1 pb-1">
+                        <form action="" method="POST">
+                            <div class="input-group">
+                                <input type="text" class="form-control" autocomplete="off" placeholder="Mau topup games apa?" name="search" value="">
+                                <button class="btn btn-primary" type="submit">Cari</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+
+            
+            <div class="container">
+                <div class="tab-content" id="pills-tabContent">
+                                        <div class="tab-pane fade show active" id="pills-games" role="tabpanel" aria-labelledby="pills-games-tab">
+                        <div class="row mb-3">
+                        </div>
+                        <div class="row game">
+                                                                                    <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/mobile-legends-bang-bang" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721056960_a79605b3fb442b3fc074.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Mobile Legends Bang Bang (MLBB)</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/honor-of-king-hok-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721060086_bf72b30e0a159f099754.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Honor Of Kings (HOK) - VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/free-fire" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1720081722_92c82c6b91c36b26d9aa.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Free Fire (FF)</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/league-of-legends-wild-rift-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1720076799_be909fcc0b9d73c7436d.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Wild Rift - League of Legends: Wild Rift VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/genshin-impact-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721061108_0cff1282237233ab7b19.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Genshin Impact VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/pubgm-id-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721061577_aaf217a8ef500c220b3a.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> PUBGM ID VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/valorant-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721060323_1347993aaedc532238ad.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Valorant VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/call-of-duty-mobile-id-codm-id-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721062416_fc38f1558367e3f7e67a.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Call Of Duty Mobile ID (CODM) ID VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/honkai-star-rail-hsr-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721062990_3af2a8166a61e60cfb78.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Honkai: Star Rail (HSR) VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/zenless-zone-zero-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721064501_733a97a71273a876cb4c.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Zenless Zone Zero VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/arena-of-valor-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684224673_07e7cc983b0dfea43332.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> AOV</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/black-clover-mobile" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1709962941_4bb0e802990399c9a1d8.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Black Clover Mobile</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/teamfight-tactics-mobile" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1702642811_9c01ddb8b47cef89fba6.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> TFT - Teamfight Tactics Mobile</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/ragnarok-origin-global-id-number-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684223737_a5bc02f1eca22a22ef81.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Ragnarok Origin</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/ragnarok-x-id-number-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684347058_42817b70f75f3d9213ae.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Ragnarok X</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/revelation-mobile-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684403794_c24c513f61b1b1e43451.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Revelation Mobile</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/rise-of-kingkom" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684226305_2d6dd9ee671363b312b3.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Rise of Kingdoms</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/lords-mobile-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684348379_3656ba46dd47883b2cf4.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Lords Mobile</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/seal-m-sea" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684404515_17e74b39af7d0dc9b7b1.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Seal M SEA</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/tower-of-fantasy-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684419335_e7f7de0be5c054ccad5d.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Tower of Fantasy</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/sausage-man-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684225107_e7e5920a3709e78f0b09.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Sausage Man</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/light-of-thel-new-era" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1685378071_267be21fdd1373e58c91.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Light of Thel : New Era</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/garena-undawn-tv" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690096768_e324cdab936a1b35954b.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Undawn</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/goddess-of-victory-nikke-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1688055607_8ac1e6628311c5a536bf.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Goddess of Victory : Nikke</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/life-makeover" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1688055878_3bdb9b8382a27f3c3700.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Life Makeover</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/dragon-raja-sea-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693157878_8f25fa93bb4ebae5b520.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Dragon Raja - SEA</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/football-master-2-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1688056263_b619b6a227eea227c60c.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Football Master 2</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/echocalypse-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1688057062_96ca4a32768ed8184d8a.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Echocalypse</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/never-after-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1688057307_e7893d78b81bdc2aa2f8.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Never After</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/the-legend-of-neverland-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1688057466_96646be34a04e2b64e59.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> The Legend of Neverland</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/dragon-nest-2-evolution" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690093660_a44168e6162691a9fec0.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Dragon Nest 2 : Evolution</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/arena-breakout" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690093798_2beee2448fdd242fcc06.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Arena Breakout</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/stumble-guys" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690093999_029da6d2acf1c6e90c3b.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Stumble Guys</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/ensemble-stars-music" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690094149_0761797f0d72ca244372.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Ensemble Stars Music</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/brawl-stars" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690094375_7c942dee7c73116d2ff9.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Brawl Stars</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/cloud-song-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1691913559_bf971136ff050373a3e0.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Cloud Song</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/hay-day" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1691913769_84c149a8f5a2c2d482b2.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Hay Day</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/atlantica-rebirth-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1691914226_ae3b2052ec181cc475ce.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Atlantica Rebirth</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/be-the-king-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1691914414_4323b604a18cd4bff9f4.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Be The King</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/ys-6-mobile-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1691914979_97b561e19f5632afa2a0.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> YS 6 Mobile</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/chimeraland-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1691915191_560c8cafeaa4fad5653f.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Chimeraland</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/honkai-impact-3-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1692768531_ff3e93334d7b52a0ace3.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Honkai Impact 3</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/metal-slug-awakening-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1721058506_489fb6a1d5b847de5448.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Metal Slug : Awakening VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/league-of-legends-pc-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693070274_0aac73afb16c4f91b440.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> League of Legends - PC</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/bleach-mobile-3d-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693157338_c0c2036872039c8e9e65.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Bleach Mobile 3D</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/era-of-celestials-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693158653_6c274cd3cc7031f73135.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Era of Celestials</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/eudemons-online-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693159884_e63388aab88bd5252707.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Eudemons Online</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/legends-of-runeterra" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693216865_7684fbdeaac5bb49a694.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Legends of Runeterra</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/lifeafter-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693217317_6389b75c51892da0c6a0.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> LifeAfter</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/lokapala-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693218825_34cdf48d684e379e955a.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Lokapala</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/harry-potter-magic-awakened" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693713836_525aced908ddca4e195a.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Harry Potter: Magic Awakened</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/dunk-city-dynasty" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1693726929_41a796128d17af39bf96.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Dunk City Dynasty</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/eggy-party" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1696852958_d9f608b974f1fcdf49bf.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Eggy Party</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/voucher-roblox-vg" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1722684592_05cd46a7061c6a8ec57d.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> VOUCHER ROBLOX VG</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         </div>
+                    </div>
+                                        <div class="tab-pane fade " id="pills-streaming" role="tabpanel" aria-labelledby="pills-streaming-tab">
+                        <div class="row mb-3">
+                        </div>
+                        <div class="row game">
+                                                                                                                                            <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/hago-diamond-id" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690096941_4906c1cb622b96e5551f.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Hago Diamond ID</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/vidio-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1688140781_90ebad956f0f13fce83e.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Vidio</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/wetv" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684423709_85c4a52221e4d0b263ab.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> WeTV</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/viu" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684221583_bedeae300a477958c8bb.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Viu</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/lita-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684422882_4129d08cf54ed6be93ed.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Lita</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/bigo-live-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684422577_d5d5b32056db6e06a443.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Bigo</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/mango-live-games" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1684423044_73c7ae132cc8da946078.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Mango</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                         </div>
+                    </div>
+                                        <div class="tab-pane fade " id="pills-pulsa" role="tabpanel" aria-labelledby="pills-pulsa-tab">
+                        <div class="row mb-3">
+                        </div>
+                        <div class="row game">
+                                                                                    <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/telkomsel-pulsa" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690182466_d9e9de4391d1214d85e0.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Telkomsel Pulsa</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/indosat-pulsa" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690182053_733ac2971dcd93eead32.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Indosat Pulsa</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/xl-pulsa" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690182538_bd1cc5defbda01bb49a2.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> XL Pulsa</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/axis-pulsa" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690182636_8a991505d5a9130b4e17.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> AXIS Pulsa</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                         <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/smartfren-pulsa" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690182400_4097a4adf5bccbcc1881.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Smartfren Pulsa</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                 <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/tri-pulsa" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690182608_410d84c60da2198970ac.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Tri Pulsa</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                                                                                                                                                         </div>
+                    </div>
+                                        <div class="tab-pane fade " id="pills-pln" role="tabpanel" aria-labelledby="pills-pln-tab">
+                        <div class="row mb-3">
+                        </div>
+                        <div class="row game">
+                                                                                    <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/token-pln" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690546526_82d995cbdb4504e12b3f.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Token PLN</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                         </div>
+                    </div>
+                                        <div class="tab-pane fade " id="pills-paket-internet" role="tabpanel" aria-labelledby="pills-paket-internet-tab">
+                        <div class="row mb-3">
+                        </div>
+                        <div class="row game">
+                                                                                                                                                                                                                                                                                                                                                                                                                                                            </div>
+                    </div>
+                                        <div class="tab-pane fade " id="pills-voucher-gamer" role="tabpanel" aria-labelledby="pills-voucher-gamer-tab">
+                        <div class="row mb-3">
+                        </div>
+                        <div class="row game">
+                                                                                    <div style="margin-bottom: 30px;" class="col-sm-3 col-lg-2 col-4 text-center">
+                            <div class="card mb-3 " style="background-color:#32323E!important;">
+                                    <a href="../games/tester" class="product_list">
+                                        <div  style="margin-bottom: 0px;" class="card opacity-100 from-gray-800 bg-gradient-to-t" bis_skin_checked="1">
+                                            <img src="https://topupdiamond.com/assets/images/games/1690188907_aaaa28d75c5a9861c162.webp" class="img-fluid" style="border-radius: 10px; display: block; width: -webkit-fill-available;">
+
+                                        <div class="card-title2 backdrop" bis_skin_checked="1" ><a class="judul-game" style="text-shadow: -2px 4px 9px rgba(0, 0, 0, 0.4);filter: blur(0px);"> Tester</a>  </div>
+                                        <div class="card-subtitle" bis_skin_checked="1"></div>
+                                        <div class="card-topup" bis_skin_checked="1" hidden> 
+                                            <div class="btn-topup" style="font-size: 0.60rem!important;" bis_skin_checked="1"> TOP UP </div>
+                                            </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                                                                                                                                                                                                                                                         </div>
+                    </div>
+                                    </div>
+            </div>
+
+            
+            </div>
+
+                        
+            <div class="container pt-4 pb-4" style="padding: 1.5rem !important;" hidden>
+                <div class="row">
+                    <div class="row col-sm-6 col-12">
+                        <h5 style="font-size: 40px; color:#fff;text-transform: uppercase;">Ikuti Kami</h5>
+                        <p><br>Dapatkan Informasi Dan Promo Menarik Dengan Cara Mengikuti Media Sosial kami.</p>
+                            <div class="col-3 card m-2" style="background-color:#32323E!important;align-items: center;">
+                                <img src="https://topupdiamond.com/assets/images/instagram.svg" class="pt-4 img-fluid text-center" style="border-radius: 10px; display: block; width: 80px" href="https://www.instagram.com/topupdm_com">
+                                <a href="https://www.instagram.com/" class="text-center mb-4" style="font-weight:bold;font-size:17px">Instagram</a>
+                            </div>
+                            <div class="col-3 card m-2" style="background-color:#32323E!important;align-items: center;">
+                                <img src="https://topupdiamond.com/assets/images/tiktok.svg" class="pt-4 img-fluid text-center" style="border-radius: 10px; display: block; width: 80px" href="https://www.tiktok.com/@topupdiamond.com">
+                                <a href="https://www.tiktok.com/" class="text-center mb-4" style="font-weight:bold;font-size:17px">Tiktok</a>
+                            </div>
+                            <div class="col-3 card m-2" style="background-color:#32323E!important;align-items: center;">
+                                <img src="https://topupdiamond.com/assets/images/youtube.svg" class="pt-4 img-fluid text-center" style="border-radius: 10px; display: block; width: 80px" href="https://youtube.com">
+                                <a href="https://youtube.com" class="text-center mb-4" style="font-weight:bold;font-size:17px">Youtube</a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+                          
+            
+            
+        </div>
+        
+            <footer id="aboutus" class="bg-footer">
+                <img src="https://topupdiamond.com/assets/images/waves.png" alt="" width="100%" hidden>
+                <div style="background: var(--warna_2);margin-top: -4px;">
+                    <div class="pt-5 pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-sm-6" >
+                                    <img src="/assets/images/1675445123_85a18a23fe91b1eda6a0.png" height="40" alt="logo icon" class="mb-3"  hidden>
+                                    <h5 class="mb-2">MSTORE</h5>
+                                    <p>Tempatnya Top Up Berbagai Game &amp; Aplikasi. Gratis Biaya Admin dengan bayar pakai QRIS. Pengisian Otomatis &amp; Open 24 Jam.</p>
+
+<p>Dijamin Aman, Legal, Nyaman dan Bikin Ketagihan.</p>
+
+<p>&nbsp;</p>
+                                </div>
+
+                                <div class="col-lg-3 col-sm-6">
+                                    <h5 class="pb-2">Halaman</h5>
+                                    <ul class="menu-list">
+                                        <li><a href="/index.html">Halaman Utama</a></li>
+                                        <li><a href="/payment">Cek Pesanan</a></li>
+                                        <li><a href="https://topupdiamond.com/price" hidden>Daftar Harga</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-lg-3 col-sm-3">
+                                    <h5 class="pb-2">Sosial Media Kami</h5>
+                                    <a href="https://www.instagram.com/" style="font-size: 35px;">
+                                        <i class="fab fa-instagram pr-4"></i>
+                                    </a>
+                                    <a href="https://youtube.com" style="font-size: 35px;">
+                                        <i class="fab fa-youtube pr-4"></i>
+                                    </a>
+                                    <a href="https://facebook.com" style="font-size: 35px;">
+                                        <i class="fab fa-facebook pr-4"></i>
+                                    </a>
+                                    <a href="https://www.tiktok.com/" style="font-size: 35px;">
+                                        <img src="/assets/images/tik-tok.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="fab-container">
+                    <div class="fab fab-icon-holder" style="background-color:#24C020; padding:5px">
+                      <img src="/assets/images/live-chat.png" class="img-fluid2" alt="">
+                    </div>
+                    
+                    <ul class="fab-options">
+                      <li>
+                        <a href="https://www.instagram.com/" class="text-decoration-none" target="_blank">
+                        <div class="fab-icon-holder" style="background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);">
+                        <i class="fab fa-instagram"></i>
+                        </div>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="https://wa.me/6281211192317" class="text-decoration-none" target="_blank">
+                        <div class="fab-icon-holder" style="background-color: #25D366;">
+                        <i class="fab fa-whatsapp"></i>
+                        </div>
+                        </a>
+                      </li>
+                    </ul>
+                    
+                 </div>
+                <div class="bg-theme1 text-center pb-4"> Copyright © 2024 MSTORE. All Rights Reserved </div>
+            </footer>
+
+
+        <a href="javaScript:void();" class="back-to-top">
+            <i class="fas fa-angle-double-up"></i>
+        </a>
+
+      
+        <script src="https://topupdiamond.com/assets/js/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/gh/demidia/webup@main/scriptify.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.1/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.10.8/sweetalert2.all.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/morris.js/0.5.1/morris.min.js"></script>
+        <script src="https://code.iconify.design/iconify-icon/1.0.0/iconify-icon.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/bootstrap-table.min.js"></script>
+        <script src="https://unpkg.com/bootstrap-table@1.21.0/dist/extensions/filter-control/bootstrap-table-filter-control.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.1/js/swiper.min.js"></script>
+        <script src="https://tokovalorant.com/assets/js/promobox.js"></script>
+
+
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var inputNumber = document.querySelector('input[type="number"]');
+        
+            if (inputNumber) {
+                inputNumber.setAttribute('type', 'text');
+                inputNumber.setAttribute('inputmode', 'numeric');
+            }
+        });
+    </script>
+       
+                    <script> 
+            
+            var swiper = new Swiper( '.swiper-container.two', {
+            		pagination: '.swiper-pagination',
+            		paginationClickable: true,
+            		effect: 'coverflow',
+            		loop: true,
+            		 autoplay: 7000,
+            		grabCursor: true,
+            		centeredSlides: true,
+            		slidesPerView: 1,
+            		coverflow: {
+            			rotate: 0,
+            			stretch: 260,
+            			depth: 150,
+            			modifier: 2.7,
+            			slideShadows : true,
+            		}
+            		
+            		
+            		
+            		
+            } );
+
+            
+            </script>
+            <script type="text/javascript">
+                $(window).on('load', function() {
+                
+                    var popupLastShown = localStorage.getItem('popupLastShown');
+                    var time_left = popupLastShown ? Math.round((popupLastShown - Date.now()) / 1000) : 0;
+                
+                    if (!popupLastShown || time_left <= 0) {
+                        $('#PopUpText').modal('show');
+                    } else {
+                        $('#PopUpText').modal('hide');
+                    }
+                
+                    // When the button is clicked, hide the popup and store the current time
+                    $('#popupButton').click(function() {
+                        localStorage.setItem("popupLastShown", Date.now() + (24 * 60 * 60 * 1000));
+                        $('#PopUpText').modal('hide');
+                    });
+                });
+            </script>
+
+
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            
+                </body>
+</html>
